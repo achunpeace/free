@@ -1,0 +1,87 @@
+[ 2018-03-27T17:36:32+08:00 ] ::1 /TP/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000521s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001067s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001121s ]
+SQL: SHOW COLUMNS FROM `xlr_menus` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `xlr_menus` WHERE `display` = 1 AND `is_home` = 1 ORDER BY `order` asc  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000390s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000494s ]
+NOTIC: [8] Use of undefined constant en - assumed 'en' D:\xampp\htdocs\TP\App\Runtime\Cache\Home\c0dc342f211e104eba0a4afbe4b0b366.php 第 690 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\xampp\htdocs\TP\App\Runtime\Cache\Home\c0dc342f211e104eba0a4afbe4b0b366.php 第 690 行.
+NOTIC: [8] Use of undefined constant en - assumed 'en' D:\xampp\htdocs\TP\App\Runtime\Cache\Home\c0dc342f211e104eba0a4afbe4b0b366.php 第 690 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\xampp\htdocs\TP\App\Runtime\Cache\Home\c0dc342f211e104eba0a4afbe4b0b366.php 第 690 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029047s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029118s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001366s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001424s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.003063s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.114865s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.115498s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.003721s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000009s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.118146s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php:95) D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php:95) D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php:95) D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001265s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001321s ]
+
+[ 2018-03-27T17:37:08+08:00 ] ::1 /TP/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000590s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001207s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001268s ]
+SQL: SHOW COLUMNS FROM `xlr_menus` [ RunTime:0.0053s ]
+SQL: SELECT * FROM `xlr_menus` WHERE `display` = 1 AND `is_home` = 1 ORDER BY `order` asc  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000194s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000239s ]
+NOTIC: [8] Use of undefined constant en - assumed 'en' D:\xampp\htdocs\TP\App\Runtime\Cache\Home\c0dc342f211e104eba0a4afbe4b0b366.php 第 690 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\xampp\htdocs\TP\App\Runtime\Cache\Home\c0dc342f211e104eba0a4afbe4b0b366.php 第 690 行.
+NOTIC: [8] Use of undefined constant en - assumed 'en' D:\xampp\htdocs\TP\App\Runtime\Cache\Home\c0dc342f211e104eba0a4afbe4b0b366.php 第 690 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\xampp\htdocs\TP\App\Runtime\Cache\Home\c0dc342f211e104eba0a4afbe4b0b366.php 第 690 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019632s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019678s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000894s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000929s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001728s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.124668s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.126049s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.002722s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000014s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.128084s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php:95) D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php:95) D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php:95) D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004355s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004452s ]
+
+[ 2018-03-27T17:37:13+08:00 ] ::1 /TP/index.php/Home/Index/%E8%B4%AD%E7%89%A9%E8%BD%A6.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000508s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000915s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000966s ]
+SQL: SHOW COLUMNS FROM `xlr_menus` [ RunTime:0.0048s ]
+SQL: SELECT * FROM `xlr_menus` WHERE `display` = 1 AND `is_home` = 1 ORDER BY `order` asc  [ RunTime:0.0003s ]
+ERR: 非法操作:购物车
+

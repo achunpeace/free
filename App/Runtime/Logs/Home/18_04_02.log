@@ -1,0 +1,38 @@
+[ 2018-04-02T11:06:22+08:00 ] ::1 /TP/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015641s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.011786s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.011848s ]
+SQL: SHOW COLUMNS FROM `xlr_menus` [ RunTime:0.0209s ]
+SQL: SELECT * FROM `xlr_menus` WHERE `display` = 1 AND `is_home` = 1 ORDER BY `order` asc  [ RunTime:0.0082s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.007215s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.007289s ]
+NOTIC: [8] Use of undefined constant en - assumed 'en' D:\xampp\htdocs\TP\App\Runtime\Cache\Home\c0dc342f211e104eba0a4afbe4b0b366.php 第 690 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\xampp\htdocs\TP\App\Runtime\Cache\Home\c0dc342f211e104eba0a4afbe4b0b366.php 第 690 行.
+NOTIC: [8] Use of undefined constant en - assumed 'en' D:\xampp\htdocs\TP\App\Runtime\Cache\Home\c0dc342f211e104eba0a4afbe4b0b366.php 第 690 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\xampp\htdocs\TP\App\Runtime\Cache\Home\c0dc342f211e104eba0a4afbe4b0b366.php 第 690 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.066344s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.066420s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.015342s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015400s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.002979s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.171700s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.154450s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.025008s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000015s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.164352s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php:95) D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php:95) D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php:95) D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.076878s ]
+INFO: [ app_end ] --END-- [ RunTime:0.076991s ]
+

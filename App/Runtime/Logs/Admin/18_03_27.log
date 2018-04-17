@@ -1,0 +1,622 @@
+[ 2018-03-27T17:35:44+08:00 ] ::1 /TP/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.016668s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001527s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001589s ]
+SQL: SHOW COLUMNS FROM `xlr_menus` [ RunTime:0.0067s ]
+SQL: SELECT * FROM `xlr_menus` WHERE `display` = 1 AND `pid` = 1 ORDER BY `order` asc  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `xlr_menus` WHERE `display` = 1 AND `pid` = 31 ORDER BY `order` asc  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `xlr_menus` WHERE `display` = 1 AND `pid` = 32 ORDER BY `order` asc  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `xlr_menus` WHERE `display` = 1 AND `pid` = 24 ORDER BY `order` asc  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `xlr_menus` WHERE `display` = 1 AND `pid` = 25 ORDER BY `order` asc  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `xlr_menus` WHERE `display` = 1 AND `pid` = 29 ORDER BY `order` asc  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `xlr_menus` WHERE `display` = 1 AND `pid` = 21 ORDER BY `order` asc  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `xlr_menus` WHERE `display` = 1 AND `pid` = 22 ORDER BY `order` asc  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `xlr_menus` WHERE `display` = 1 AND `pid` = 23 ORDER BY `order` asc  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `xlr_menus` WHERE `display` = 1 AND `pid` = 18 ORDER BY `order` asc  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `xlr_menus` WHERE `display` = 1 AND `pid` = 19 ORDER BY `order` asc  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `xlr_menus` WHERE `display` = 1 AND `pid` = 20 ORDER BY `order` asc  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `xlr_menus` WHERE `display` = 1 AND `pid` = 15 ORDER BY `order` asc  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `xlr_menus` WHERE `display` = 1 AND `pid` = 16 ORDER BY `order` asc  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `xlr_menus` WHERE `display` = 1 AND `pid` = 17 ORDER BY `order` asc  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `xlr_menus` WHERE `display` = 1 AND `pid` = 8 ORDER BY `order` asc  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `xlr_menus` WHERE `display` = 1 AND `pid` = 3 ORDER BY `order` asc  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `xlr_menus` WHERE `display` = 1 AND `pid` = 4 ORDER BY `order` asc  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `xlr_menus` WHERE `display` = 1 AND `pid` = 5 ORDER BY `order` asc  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `xlr_menus` WHERE `display` = 1 AND `pid` = 9 ORDER BY `order` asc  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `xlr_menus` WHERE `display` = 1 AND `pid` = 10 ORDER BY `order` asc  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `xlr_menus` WHERE `display` = 1 AND `pid` = 11 ORDER BY `order` asc  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `xlr_menus` WHERE `display` = 1 AND `pid` = 12 ORDER BY `order` asc  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `xlr_menus` WHERE `display` = 1 AND `pid` = 13 ORDER BY `order` asc  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `xlr_menus` WHERE `display` = 1 AND `pid` = 14 ORDER BY `order` asc  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `xlr_menus` WHERE `display` = 1 AND `pid` = 7 ORDER BY `order` asc  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xlr_cate` [ RunTime:0.0073s ]
+SQL: SELECT * FROM `xlr_cate` WHERE `pid` = 0  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `xlr_cate` WHERE `pid` = 1  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `xlr_cate` WHERE `pid` = 4  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `xlr_cate` WHERE `pid` = 5  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `xlr_cate` WHERE `pid` = 6  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `xlr_cate` WHERE `pid` = 7  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `xlr_cate` WHERE `pid` = 11  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `xlr_cate` WHERE `pid` = 2  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `xlr_cate` WHERE `pid` = 13  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `xlr_cate` WHERE `pid` = 14  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `xlr_cate` WHERE `pid` = 15  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `xlr_cate` WHERE `pid` = 17  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `xlr_cate` WHERE `pid` = 18  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `xlr_cate` WHERE `pid` = 20  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `xlr_cate` WHERE `pid` = 3  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `xlr_cate` WHERE `pid` = 19  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `xlr_attr` [ RunTime:0.0059s ]
+SQL: SELECT * FROM `xlr_attr` WHERE `cate_id` = 0  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.013709s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.013773s ]
+NOTIC: [8] Use of undefined constant en - assumed 'en' D:\xampp\htdocs\TP\App\Runtime\Cache\Admin\ebbcb6553e826fbc091d4252662003b5.php 第 432 行.
+NOTIC: [8] Use of undefined constant en - assumed 'en' D:\xampp\htdocs\TP\App\Runtime\Cache\Admin\ebbcb6553e826fbc091d4252662003b5.php 第 432 行.
+NOTIC: [8] Use of undefined constant en - assumed 'en' D:\xampp\htdocs\TP\App\Runtime\Cache\Admin\ebbcb6553e826fbc091d4252662003b5.php 第 432 行.
+NOTIC: [8] Use of undefined constant en - assumed 'en' D:\xampp\htdocs\TP\App\Runtime\Cache\Admin\ebbcb6553e826fbc091d4252662003b5.php 第 432 行.
+NOTIC: [8] Use of undefined constant en - assumed 'en' D:\xampp\htdocs\TP\App\Runtime\Cache\Admin\ebbcb6553e826fbc091d4252662003b5.php 第 432 行.
+NOTIC: [8] Use of undefined constant en - assumed 'en' D:\xampp\htdocs\TP\App\Runtime\Cache\Admin\ebbcb6553e826fbc091d4252662003b5.php 第 432 行.
+NOTIC: [8] Use of undefined constant en - assumed 'en' D:\xampp\htdocs\TP\App\Runtime\Cache\Admin\ebbcb6553e826fbc091d4252662003b5.php 第 432 行.
+NOTIC: [8] Use of undefined constant en - assumed 'en' D:\xampp\htdocs\TP\App\Runtime\Cache\Admin\ebbcb6553e826fbc091d4252662003b5.php 第 432 行.
+NOTIC: [8] Use of undefined constant en - assumed 'en' D:\xampp\htdocs\TP\App\Runtime\Cache\Admin\ebbcb6553e826fbc091d4252662003b5.php 第 432 行.
+NOTIC: [8] Use of undefined constant en - assumed 'en' D:\xampp\htdocs\TP\App\Runtime\Cache\Admin\ebbcb6553e826fbc091d4252662003b5.php 第 432 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.051872s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.051944s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.015386s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015430s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000092s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.058028s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.050925s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.016678s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000016s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.052260s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php:95) D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php:95) D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php:95) D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.013554s ]
+INFO: [ app_end ] --END-- [ RunTime:0.013708s ]
+
+[ 2018-03-27T17:38:54+08:00 ] ::1 /TP/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000489s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002230s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002293s ]
+SQL: SHOW COLUMNS FROM `xlr_menus` [ RunTime:0.0840s ]
+SQL: SELECT * FROM `xlr_menus` WHERE `display` = 1 AND `pid` = 1 ORDER BY `order` asc  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `xlr_menus` WHERE `display` = 1 AND `pid` = 31 ORDER BY `order` asc  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `xlr_menus` WHERE `display` = 1 AND `pid` = 32 ORDER BY `order` asc  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `xlr_menus` WHERE `display` = 1 AND `pid` = 24 ORDER BY `order` asc  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `xlr_menus` WHERE `display` = 1 AND `pid` = 25 ORDER BY `order` asc  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `xlr_menus` WHERE `display` = 1 AND `pid` = 29 ORDER BY `order` asc  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `xlr_menus` WHERE `display` = 1 AND `pid` = 21 ORDER BY `order` asc  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `xlr_menus` WHERE `display` = 1 AND `pid` = 22 ORDER BY `order` asc  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `xlr_menus` WHERE `display` = 1 AND `pid` = 23 ORDER BY `order` asc  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `xlr_menus` WHERE `display` = 1 AND `pid` = 18 ORDER BY `order` asc  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `xlr_menus` WHERE `display` = 1 AND `pid` = 19 ORDER BY `order` asc  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `xlr_menus` WHERE `display` = 1 AND `pid` = 20 ORDER BY `order` asc  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `xlr_menus` WHERE `display` = 1 AND `pid` = 15 ORDER BY `order` asc  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `xlr_menus` WHERE `display` = 1 AND `pid` = 16 ORDER BY `order` asc  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `xlr_menus` WHERE `display` = 1 AND `pid` = 17 ORDER BY `order` asc  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `xlr_menus` WHERE `display` = 1 AND `pid` = 8 ORDER BY `order` asc  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `xlr_menus` WHERE `display` = 1 AND `pid` = 3 ORDER BY `order` asc  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `xlr_menus` WHERE `display` = 1 AND `pid` = 4 ORDER BY `order` asc  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `xlr_menus` WHERE `display` = 1 AND `pid` = 5 ORDER BY `order` asc  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `xlr_menus` WHERE `display` = 1 AND `pid` = 9 ORDER BY `order` asc  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `xlr_menus` WHERE `display` = 1 AND `pid` = 10 ORDER BY `order` asc  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `xlr_menus` WHERE `display` = 1 AND `pid` = 11 ORDER BY `order` asc  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `xlr_menus` WHERE `display` = 1 AND `pid` = 12 ORDER BY `order` asc  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `xlr_menus` WHERE `display` = 1 AND `pid` = 13 ORDER BY `order` asc  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `xlr_menus` WHERE `display` = 1 AND `pid` = 14 ORDER BY `order` asc  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `xlr_menus` WHERE `display` = 1 AND `pid` = 7 ORDER BY `order` asc  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `xlr_cate` [ RunTime:0.0037s ]
+SQL: SELECT * FROM `xlr_cate` WHERE `pid` = 0  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `xlr_cate` WHERE `pid` = 1  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `xlr_cate` WHERE `pid` = 4  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `xlr_cate` WHERE `pid` = 5  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `xlr_cate` WHERE `pid` = 6  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `xlr_cate` WHERE `pid` = 7  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `xlr_cate` WHERE `pid` = 11  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `xlr_cate` WHERE `pid` = 2  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `xlr_cate` WHERE `pid` = 13  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `xlr_cate` WHERE `pid` = 14  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `xlr_cate` WHERE `pid` = 15  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `xlr_cate` WHERE `pid` = 17  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `xlr_cate` WHERE `pid` = 18  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `xlr_cate` WHERE `pid` = 20  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `xlr_cate` WHERE `pid` = 3  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `xlr_cate` WHERE `pid` = 19  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `xlr_attr` [ RunTime:0.0041s ]
+SQL: SELECT * FROM `xlr_attr` WHERE `cate_id` = 0  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000124s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000165s ]
+NOTIC: [8] Use of undefined constant en - assumed 'en' D:\xampp\htdocs\TP\App\Runtime\Cache\Admin\ebbcb6553e826fbc091d4252662003b5.php 第 432 行.
+NOTIC: [8] Use of undefined constant en - assumed 'en' D:\xampp\htdocs\TP\App\Runtime\Cache\Admin\ebbcb6553e826fbc091d4252662003b5.php 第 432 行.
+NOTIC: [8] Use of undefined constant en - assumed 'en' D:\xampp\htdocs\TP\App\Runtime\Cache\Admin\ebbcb6553e826fbc091d4252662003b5.php 第 432 行.
+NOTIC: [8] Use of undefined constant en - assumed 'en' D:\xampp\htdocs\TP\App\Runtime\Cache\Admin\ebbcb6553e826fbc091d4252662003b5.php 第 432 行.
+NOTIC: [8] Use of undefined constant en - assumed 'en' D:\xampp\htdocs\TP\App\Runtime\Cache\Admin\ebbcb6553e826fbc091d4252662003b5.php 第 432 行.
+NOTIC: [8] Use of undefined constant en - assumed 'en' D:\xampp\htdocs\TP\App\Runtime\Cache\Admin\ebbcb6553e826fbc091d4252662003b5.php 第 432 行.
+NOTIC: [8] Use of undefined constant en - assumed 'en' D:\xampp\htdocs\TP\App\Runtime\Cache\Admin\ebbcb6553e826fbc091d4252662003b5.php 第 432 行.
+NOTIC: [8] Use of undefined constant en - assumed 'en' D:\xampp\htdocs\TP\App\Runtime\Cache\Admin\ebbcb6553e826fbc091d4252662003b5.php 第 432 行.
+NOTIC: [8] Use of undefined constant en - assumed 'en' D:\xampp\htdocs\TP\App\Runtime\Cache\Admin\ebbcb6553e826fbc091d4252662003b5.php 第 432 行.
+NOTIC: [8] Use of undefined constant en - assumed 'en' D:\xampp\htdocs\TP\App\Runtime\Cache\Admin\ebbcb6553e826fbc091d4252662003b5.php 第 432 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015157s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015208s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000930s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000965s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000216s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.009333s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007847s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.001667s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000011s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.008618s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php:95) D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php:95) D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php:95) D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001573s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001646s ]
+
+[ 2018-03-27T17:39:00+08:00 ] ::1 /TP/index.php/Admin/User/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000492s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001037s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001117s ]
+SQL: SHOW COLUMNS FROM `xlr_menus` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `xlr_menus` WHERE `display` = 1 AND `pid` = 1 ORDER BY `order` asc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `xlr_menus` WHERE `display` = 1 AND `pid` = 31 ORDER BY `order` asc  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `xlr_menus` WHERE `display` = 1 AND `pid` = 32 ORDER BY `order` asc  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `xlr_menus` WHERE `display` = 1 AND `pid` = 24 ORDER BY `order` asc  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `xlr_menus` WHERE `display` = 1 AND `pid` = 25 ORDER BY `order` asc  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `xlr_menus` WHERE `display` = 1 AND `pid` = 29 ORDER BY `order` asc  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `xlr_menus` WHERE `display` = 1 AND `pid` = 21 ORDER BY `order` asc  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `xlr_menus` WHERE `display` = 1 AND `pid` = 22 ORDER BY `order` asc  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `xlr_menus` WHERE `display` = 1 AND `pid` = 23 ORDER BY `order` asc  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `xlr_menus` WHERE `display` = 1 AND `pid` = 18 ORDER BY `order` asc  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `xlr_menus` WHERE `display` = 1 AND `pid` = 19 ORDER BY `order` asc  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `xlr_menus` WHERE `display` = 1 AND `pid` = 20 ORDER BY `order` asc  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `xlr_menus` WHERE `display` = 1 AND `pid` = 15 ORDER BY `order` asc  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `xlr_menus` WHERE `display` = 1 AND `pid` = 16 ORDER BY `order` asc  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `xlr_menus` WHERE `display` = 1 AND `pid` = 17 ORDER BY `order` asc  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `xlr_menus` WHERE `display` = 1 AND `pid` = 8 ORDER BY `order` asc  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `xlr_menus` WHERE `display` = 1 AND `pid` = 3 ORDER BY `order` asc  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `xlr_menus` WHERE `display` = 1 AND `pid` = 4 ORDER BY `order` asc  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `xlr_menus` WHERE `display` = 1 AND `pid` = 5 ORDER BY `order` asc  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `xlr_menus` WHERE `display` = 1 AND `pid` = 9 ORDER BY `order` asc  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `xlr_menus` WHERE `display` = 1 AND `pid` = 10 ORDER BY `order` asc  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `xlr_menus` WHERE `display` = 1 AND `pid` = 11 ORDER BY `order` asc  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `xlr_menus` WHERE `display` = 1 AND `pid` = 12 ORDER BY `order` asc  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `xlr_menus` WHERE `display` = 1 AND `pid` = 13 ORDER BY `order` asc  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `xlr_menus` WHERE `display` = 1 AND `pid` = 14 ORDER BY `order` asc  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `xlr_menus` WHERE `display` = 1 AND `pid` = 7 ORDER BY `order` asc  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `xlr_cate` [ RunTime:0.0044s ]
+SQL: SELECT * FROM `xlr_cate` WHERE `pid` = 0  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `xlr_cate` WHERE `pid` = 1  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `xlr_cate` WHERE `pid` = 4  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `xlr_cate` WHERE `pid` = 5  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `xlr_cate` WHERE `pid` = 6  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `xlr_cate` WHERE `pid` = 7  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `xlr_cate` WHERE `pid` = 11  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `xlr_cate` WHERE `pid` = 2  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `xlr_cate` WHERE `pid` = 13  [ RunTime:0.0009s ]
+SQL: SELECT * FROM `xlr_cate` WHERE `pid` = 14  [ RunTime:0.0009s ]
+SQL: SELECT * FROM `xlr_cate` WHERE `pid` = 15  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `xlr_cate` WHERE `pid` = 17  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `xlr_cate` WHERE `pid` = 18  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `xlr_cate` WHERE `pid` = 20  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `xlr_cate` WHERE `pid` = 3  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `xlr_cate` WHERE `pid` = 19  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `xlr_attr` [ RunTime:0.0043s ]
+SQL: SELECT * FROM `xlr_attr` WHERE `cate_id` = 0  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000126s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000172s ]
+NOTIC: [8] Use of undefined constant en - assumed 'en' D:\xampp\htdocs\TP\App\Runtime\Cache\Admin\ebbcb6553e826fbc091d4252662003b5.php 第 432 行.
+NOTIC: [8] Use of undefined constant en - assumed 'en' D:\xampp\htdocs\TP\App\Runtime\Cache\Admin\ebbcb6553e826fbc091d4252662003b5.php 第 432 行.
+NOTIC: [8] Use of undefined constant en - assumed 'en' D:\xampp\htdocs\TP\App\Runtime\Cache\Admin\ebbcb6553e826fbc091d4252662003b5.php 第 432 行.
+NOTIC: [8] Use of undefined constant en - assumed 'en' D:\xampp\htdocs\TP\App\Runtime\Cache\Admin\ebbcb6553e826fbc091d4252662003b5.php 第 432 行.
+NOTIC: [8] Use of undefined constant en - assumed 'en' D:\xampp\htdocs\TP\App\Runtime\Cache\Admin\ebbcb6553e826fbc091d4252662003b5.php 第 432 行.
+NOTIC: [8] Use of undefined constant en - assumed 'en' D:\xampp\htdocs\TP\App\Runtime\Cache\Admin\ebbcb6553e826fbc091d4252662003b5.php 第 432 行.
+NOTIC: [8] Use of undefined constant en - assumed 'en' D:\xampp\htdocs\TP\App\Runtime\Cache\Admin\ebbcb6553e826fbc091d4252662003b5.php 第 432 行.
+NOTIC: [8] Use of undefined constant en - assumed 'en' D:\xampp\htdocs\TP\App\Runtime\Cache\Admin\ebbcb6553e826fbc091d4252662003b5.php 第 432 行.
+NOTIC: [8] Use of undefined constant en - assumed 'en' D:\xampp\htdocs\TP\App\Runtime\Cache\Admin\ebbcb6553e826fbc091d4252662003b5.php 第 432 行.
+NOTIC: [8] Use of undefined constant en - assumed 'en' D:\xampp\htdocs\TP\App\Runtime\Cache\Admin\ebbcb6553e826fbc091d4252662003b5.php 第 432 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018724s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018821s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000788s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000831s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000117s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.038319s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034329s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.011012s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000016s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.044571s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php:95) D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php:95) D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php:95) D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001304s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001369s ]
+
+[ 2018-03-27T17:39:05+08:00 ] ::1 /TP/index.php/Admin/Goods/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000611s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000483s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000530s ]
+SQL: SHOW COLUMNS FROM `xlr_menus` [ RunTime:0.0829s ]
+SQL: SELECT * FROM `xlr_menus` WHERE `display` = 1 AND `pid` = 1 ORDER BY `order` asc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `xlr_menus` WHERE `display` = 1 AND `pid` = 31 ORDER BY `order` asc  [ RunTime:0.0009s ]
+SQL: SELECT * FROM `xlr_menus` WHERE `display` = 1 AND `pid` = 32 ORDER BY `order` asc  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `xlr_menus` WHERE `display` = 1 AND `pid` = 24 ORDER BY `order` asc  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `xlr_menus` WHERE `display` = 1 AND `pid` = 25 ORDER BY `order` asc  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `xlr_menus` WHERE `display` = 1 AND `pid` = 29 ORDER BY `order` asc  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `xlr_menus` WHERE `display` = 1 AND `pid` = 21 ORDER BY `order` asc  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `xlr_menus` WHERE `display` = 1 AND `pid` = 22 ORDER BY `order` asc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `xlr_menus` WHERE `display` = 1 AND `pid` = 23 ORDER BY `order` asc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `xlr_menus` WHERE `display` = 1 AND `pid` = 18 ORDER BY `order` asc  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `xlr_menus` WHERE `display` = 1 AND `pid` = 19 ORDER BY `order` asc  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `xlr_menus` WHERE `display` = 1 AND `pid` = 20 ORDER BY `order` asc  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `xlr_menus` WHERE `display` = 1 AND `pid` = 15 ORDER BY `order` asc  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `xlr_menus` WHERE `display` = 1 AND `pid` = 16 ORDER BY `order` asc  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `xlr_menus` WHERE `display` = 1 AND `pid` = 17 ORDER BY `order` asc  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `xlr_menus` WHERE `display` = 1 AND `pid` = 8 ORDER BY `order` asc  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `xlr_menus` WHERE `display` = 1 AND `pid` = 3 ORDER BY `order` asc  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `xlr_menus` WHERE `display` = 1 AND `pid` = 4 ORDER BY `order` asc  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `xlr_menus` WHERE `display` = 1 AND `pid` = 5 ORDER BY `order` asc  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `xlr_menus` WHERE `display` = 1 AND `pid` = 9 ORDER BY `order` asc  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `xlr_menus` WHERE `display` = 1 AND `pid` = 10 ORDER BY `order` asc  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `xlr_menus` WHERE `display` = 1 AND `pid` = 11 ORDER BY `order` asc  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `xlr_menus` WHERE `display` = 1 AND `pid` = 12 ORDER BY `order` asc  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `xlr_menus` WHERE `display` = 1 AND `pid` = 13 ORDER BY `order` asc  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `xlr_menus` WHERE `display` = 1 AND `pid` = 14 ORDER BY `order` asc  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `xlr_menus` WHERE `display` = 1 AND `pid` = 7 ORDER BY `order` asc  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xlr_cate` [ RunTime:0.0359s ]
+SQL: SELECT * FROM `xlr_cate` WHERE `pid` = 0  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `xlr_cate` WHERE `pid` = 1  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `xlr_cate` WHERE `pid` = 4  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `xlr_cate` WHERE `pid` = 5  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `xlr_cate` WHERE `pid` = 6  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `xlr_cate` WHERE `pid` = 7  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `xlr_cate` WHERE `pid` = 11  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `xlr_cate` WHERE `pid` = 2  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `xlr_cate` WHERE `pid` = 13  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `xlr_cate` WHERE `pid` = 14  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `xlr_cate` WHERE `pid` = 15  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `xlr_cate` WHERE `pid` = 17  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `xlr_cate` WHERE `pid` = 18  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `xlr_cate` WHERE `pid` = 20  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `xlr_cate` WHERE `pid` = 3  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `xlr_cate` WHERE `pid` = 19  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `xlr_attr` [ RunTime:0.0267s ]
+SQL: SELECT * FROM `xlr_attr` WHERE `cate_id` = 0  [ RunTime:0.0004s ]
+NOTIC: [2] unlink(./App/Runtime/Temp/b979c2934ac0b4ba3f08dabfdd1b2299.php): No such file or directory D:\xampp\htdocs\TP\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+SQL: SHOW COLUMNS FROM `xlr_cate` [ RunTime:0.0047s ]
+SQL: SELECT * FROM `xlr_cate` WHERE ( `pid`=0 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xlr_brand` [ RunTime:0.0281s ]
+SQL: SELECT * FROM `xlr_brand`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000139s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000190s ]
+NOTIC: [8] Use of undefined constant en - assumed 'en' D:\xampp\htdocs\TP\App\Runtime\Cache\Admin\ebbcb6553e826fbc091d4252662003b5.php 第 432 行.
+NOTIC: [8] Use of undefined constant en - assumed 'en' D:\xampp\htdocs\TP\App\Runtime\Cache\Admin\ebbcb6553e826fbc091d4252662003b5.php 第 432 行.
+NOTIC: [8] Use of undefined constant en - assumed 'en' D:\xampp\htdocs\TP\App\Runtime\Cache\Admin\ebbcb6553e826fbc091d4252662003b5.php 第 432 行.
+NOTIC: [8] Use of undefined constant en - assumed 'en' D:\xampp\htdocs\TP\App\Runtime\Cache\Admin\ebbcb6553e826fbc091d4252662003b5.php 第 432 行.
+NOTIC: [8] Use of undefined constant en - assumed 'en' D:\xampp\htdocs\TP\App\Runtime\Cache\Admin\ebbcb6553e826fbc091d4252662003b5.php 第 432 行.
+NOTIC: [8] Use of undefined constant en - assumed 'en' D:\xampp\htdocs\TP\App\Runtime\Cache\Admin\ebbcb6553e826fbc091d4252662003b5.php 第 432 行.
+NOTIC: [8] Use of undefined constant en - assumed 'en' D:\xampp\htdocs\TP\App\Runtime\Cache\Admin\ebbcb6553e826fbc091d4252662003b5.php 第 432 行.
+NOTIC: [8] Use of undefined constant en - assumed 'en' D:\xampp\htdocs\TP\App\Runtime\Cache\Admin\ebbcb6553e826fbc091d4252662003b5.php 第 432 行.
+NOTIC: [8] Use of undefined constant en - assumed 'en' D:\xampp\htdocs\TP\App\Runtime\Cache\Admin\ebbcb6553e826fbc091d4252662003b5.php 第 432 行.
+NOTIC: [8] Use of undefined constant en - assumed 'en' D:\xampp\htdocs\TP\App\Runtime\Cache\Admin\ebbcb6553e826fbc091d4252662003b5.php 第 432 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013398s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013449s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000456s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000487s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000188s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.026984s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025903s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.001410s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000030s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.026920s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php:95) D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php:95) D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php:95) D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001030s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001108s ]
+
+[ 2018-03-27T17:39:07+08:00 ] ::1 /TP/index.php/Admin/Rule/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000491s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000919s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000979s ]
+SQL: SHOW COLUMNS FROM `xlr_menus` [ RunTime:0.0068s ]
+SQL: SELECT * FROM `xlr_menus` WHERE `display` = 1 AND `pid` = 1 ORDER BY `order` asc  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `xlr_menus` WHERE `display` = 1 AND `pid` = 31 ORDER BY `order` asc  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `xlr_menus` WHERE `display` = 1 AND `pid` = 32 ORDER BY `order` asc  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `xlr_menus` WHERE `display` = 1 AND `pid` = 24 ORDER BY `order` asc  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `xlr_menus` WHERE `display` = 1 AND `pid` = 25 ORDER BY `order` asc  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `xlr_menus` WHERE `display` = 1 AND `pid` = 29 ORDER BY `order` asc  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `xlr_menus` WHERE `display` = 1 AND `pid` = 21 ORDER BY `order` asc  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `xlr_menus` WHERE `display` = 1 AND `pid` = 22 ORDER BY `order` asc  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `xlr_menus` WHERE `display` = 1 AND `pid` = 23 ORDER BY `order` asc  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `xlr_menus` WHERE `display` = 1 AND `pid` = 18 ORDER BY `order` asc  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `xlr_menus` WHERE `display` = 1 AND `pid` = 19 ORDER BY `order` asc  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `xlr_menus` WHERE `display` = 1 AND `pid` = 20 ORDER BY `order` asc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `xlr_menus` WHERE `display` = 1 AND `pid` = 15 ORDER BY `order` asc  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `xlr_menus` WHERE `display` = 1 AND `pid` = 16 ORDER BY `order` asc  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `xlr_menus` WHERE `display` = 1 AND `pid` = 17 ORDER BY `order` asc  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `xlr_menus` WHERE `display` = 1 AND `pid` = 8 ORDER BY `order` asc  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `xlr_menus` WHERE `display` = 1 AND `pid` = 3 ORDER BY `order` asc  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `xlr_menus` WHERE `display` = 1 AND `pid` = 4 ORDER BY `order` asc  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `xlr_menus` WHERE `display` = 1 AND `pid` = 5 ORDER BY `order` asc  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `xlr_menus` WHERE `display` = 1 AND `pid` = 9 ORDER BY `order` asc  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `xlr_menus` WHERE `display` = 1 AND `pid` = 10 ORDER BY `order` asc  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `xlr_menus` WHERE `display` = 1 AND `pid` = 11 ORDER BY `order` asc  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `xlr_menus` WHERE `display` = 1 AND `pid` = 12 ORDER BY `order` asc  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `xlr_menus` WHERE `display` = 1 AND `pid` = 13 ORDER BY `order` asc  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `xlr_menus` WHERE `display` = 1 AND `pid` = 14 ORDER BY `order` asc  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `xlr_menus` WHERE `display` = 1 AND `pid` = 7 ORDER BY `order` asc  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xlr_cate` [ RunTime:0.0051s ]
+SQL: SELECT * FROM `xlr_cate` WHERE `pid` = 0  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `xlr_cate` WHERE `pid` = 1  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `xlr_cate` WHERE `pid` = 4  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `xlr_cate` WHERE `pid` = 5  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `xlr_cate` WHERE `pid` = 6  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `xlr_cate` WHERE `pid` = 7  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `xlr_cate` WHERE `pid` = 11  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `xlr_cate` WHERE `pid` = 2  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `xlr_cate` WHERE `pid` = 13  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `xlr_cate` WHERE `pid` = 14  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `xlr_cate` WHERE `pid` = 15  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `xlr_cate` WHERE `pid` = 17  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `xlr_cate` WHERE `pid` = 18  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `xlr_cate` WHERE `pid` = 20  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `xlr_cate` WHERE `pid` = 3  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `xlr_cate` WHERE `pid` = 19  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `xlr_attr` [ RunTime:0.0046s ]
+SQL: SELECT * FROM `xlr_attr` WHERE `cate_id` = 0  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000136s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000192s ]
+NOTIC: [8] Use of undefined constant en - assumed 'en' D:\xampp\htdocs\TP\App\Runtime\Cache\Admin\ebbcb6553e826fbc091d4252662003b5.php 第 432 行.
+NOTIC: [8] Use of undefined constant en - assumed 'en' D:\xampp\htdocs\TP\App\Runtime\Cache\Admin\ebbcb6553e826fbc091d4252662003b5.php 第 432 行.
+NOTIC: [8] Use of undefined constant en - assumed 'en' D:\xampp\htdocs\TP\App\Runtime\Cache\Admin\ebbcb6553e826fbc091d4252662003b5.php 第 432 行.
+NOTIC: [8] Use of undefined constant en - assumed 'en' D:\xampp\htdocs\TP\App\Runtime\Cache\Admin\ebbcb6553e826fbc091d4252662003b5.php 第 432 行.
+NOTIC: [8] Use of undefined constant en - assumed 'en' D:\xampp\htdocs\TP\App\Runtime\Cache\Admin\ebbcb6553e826fbc091d4252662003b5.php 第 432 行.
+NOTIC: [8] Use of undefined constant en - assumed 'en' D:\xampp\htdocs\TP\App\Runtime\Cache\Admin\ebbcb6553e826fbc091d4252662003b5.php 第 432 行.
+NOTIC: [8] Use of undefined constant en - assumed 'en' D:\xampp\htdocs\TP\App\Runtime\Cache\Admin\ebbcb6553e826fbc091d4252662003b5.php 第 432 行.
+NOTIC: [8] Use of undefined constant en - assumed 'en' D:\xampp\htdocs\TP\App\Runtime\Cache\Admin\ebbcb6553e826fbc091d4252662003b5.php 第 432 行.
+NOTIC: [8] Use of undefined constant en - assumed 'en' D:\xampp\htdocs\TP\App\Runtime\Cache\Admin\ebbcb6553e826fbc091d4252662003b5.php 第 432 行.
+NOTIC: [8] Use of undefined constant en - assumed 'en' D:\xampp\htdocs\TP\App\Runtime\Cache\Admin\ebbcb6553e826fbc091d4252662003b5.php 第 432 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015759s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015833s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000871s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000924s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000103s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.033581s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012045s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.019762s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000015s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.030955s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php:95) D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php:95) D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php:95) D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001126s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001186s ]
+
+[ 2018-03-27T17:39:08+08:00 ] ::1 /TP/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000651s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000880s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000982s ]
+SQL: SHOW COLUMNS FROM `xlr_menus` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `xlr_menus` WHERE `display` = 1 AND `pid` = 1 ORDER BY `order` asc  [ RunTime:0.0021s ]
+SQL: SELECT * FROM `xlr_menus` WHERE `display` = 1 AND `pid` = 31 ORDER BY `order` asc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `xlr_menus` WHERE `display` = 1 AND `pid` = 32 ORDER BY `order` asc  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `xlr_menus` WHERE `display` = 1 AND `pid` = 24 ORDER BY `order` asc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `xlr_menus` WHERE `display` = 1 AND `pid` = 25 ORDER BY `order` asc  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `xlr_menus` WHERE `display` = 1 AND `pid` = 29 ORDER BY `order` asc  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `xlr_menus` WHERE `display` = 1 AND `pid` = 21 ORDER BY `order` asc  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `xlr_menus` WHERE `display` = 1 AND `pid` = 22 ORDER BY `order` asc  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `xlr_menus` WHERE `display` = 1 AND `pid` = 23 ORDER BY `order` asc  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `xlr_menus` WHERE `display` = 1 AND `pid` = 18 ORDER BY `order` asc  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `xlr_menus` WHERE `display` = 1 AND `pid` = 19 ORDER BY `order` asc  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `xlr_menus` WHERE `display` = 1 AND `pid` = 20 ORDER BY `order` asc  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `xlr_menus` WHERE `display` = 1 AND `pid` = 15 ORDER BY `order` asc  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `xlr_menus` WHERE `display` = 1 AND `pid` = 16 ORDER BY `order` asc  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `xlr_menus` WHERE `display` = 1 AND `pid` = 17 ORDER BY `order` asc  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `xlr_menus` WHERE `display` = 1 AND `pid` = 8 ORDER BY `order` asc  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `xlr_menus` WHERE `display` = 1 AND `pid` = 3 ORDER BY `order` asc  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `xlr_menus` WHERE `display` = 1 AND `pid` = 4 ORDER BY `order` asc  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `xlr_menus` WHERE `display` = 1 AND `pid` = 5 ORDER BY `order` asc  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `xlr_menus` WHERE `display` = 1 AND `pid` = 9 ORDER BY `order` asc  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `xlr_menus` WHERE `display` = 1 AND `pid` = 10 ORDER BY `order` asc  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `xlr_menus` WHERE `display` = 1 AND `pid` = 11 ORDER BY `order` asc  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `xlr_menus` WHERE `display` = 1 AND `pid` = 12 ORDER BY `order` asc  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `xlr_menus` WHERE `display` = 1 AND `pid` = 13 ORDER BY `order` asc  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `xlr_menus` WHERE `display` = 1 AND `pid` = 14 ORDER BY `order` asc  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `xlr_menus` WHERE `display` = 1 AND `pid` = 7 ORDER BY `order` asc  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xlr_cate` [ RunTime:0.0063s ]
+SQL: SELECT * FROM `xlr_cate` WHERE `pid` = 0  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `xlr_cate` WHERE `pid` = 1  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `xlr_cate` WHERE `pid` = 4  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `xlr_cate` WHERE `pid` = 5  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `xlr_cate` WHERE `pid` = 6  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `xlr_cate` WHERE `pid` = 7  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `xlr_cate` WHERE `pid` = 11  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `xlr_cate` WHERE `pid` = 2  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `xlr_cate` WHERE `pid` = 13  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `xlr_cate` WHERE `pid` = 14  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `xlr_cate` WHERE `pid` = 15  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `xlr_cate` WHERE `pid` = 17  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `xlr_cate` WHERE `pid` = 18  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `xlr_cate` WHERE `pid` = 20  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `xlr_cate` WHERE `pid` = 3  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `xlr_cate` WHERE `pid` = 19  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xlr_attr` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `xlr_attr` WHERE `cate_id` = 0  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000217s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000287s ]
+NOTIC: [8] Use of undefined constant en - assumed 'en' D:\xampp\htdocs\TP\App\Runtime\Cache\Admin\ebbcb6553e826fbc091d4252662003b5.php 第 432 行.
+NOTIC: [8] Use of undefined constant en - assumed 'en' D:\xampp\htdocs\TP\App\Runtime\Cache\Admin\ebbcb6553e826fbc091d4252662003b5.php 第 432 行.
+NOTIC: [8] Use of undefined constant en - assumed 'en' D:\xampp\htdocs\TP\App\Runtime\Cache\Admin\ebbcb6553e826fbc091d4252662003b5.php 第 432 行.
+NOTIC: [8] Use of undefined constant en - assumed 'en' D:\xampp\htdocs\TP\App\Runtime\Cache\Admin\ebbcb6553e826fbc091d4252662003b5.php 第 432 行.
+NOTIC: [8] Use of undefined constant en - assumed 'en' D:\xampp\htdocs\TP\App\Runtime\Cache\Admin\ebbcb6553e826fbc091d4252662003b5.php 第 432 行.
+NOTIC: [8] Use of undefined constant en - assumed 'en' D:\xampp\htdocs\TP\App\Runtime\Cache\Admin\ebbcb6553e826fbc091d4252662003b5.php 第 432 行.
+NOTIC: [8] Use of undefined constant en - assumed 'en' D:\xampp\htdocs\TP\App\Runtime\Cache\Admin\ebbcb6553e826fbc091d4252662003b5.php 第 432 行.
+NOTIC: [8] Use of undefined constant en - assumed 'en' D:\xampp\htdocs\TP\App\Runtime\Cache\Admin\ebbcb6553e826fbc091d4252662003b5.php 第 432 行.
+NOTIC: [8] Use of undefined constant en - assumed 'en' D:\xampp\htdocs\TP\App\Runtime\Cache\Admin\ebbcb6553e826fbc091d4252662003b5.php 第 432 行.
+NOTIC: [8] Use of undefined constant en - assumed 'en' D:\xampp\htdocs\TP\App\Runtime\Cache\Admin\ebbcb6553e826fbc091d4252662003b5.php 第 432 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020388s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020468s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000680s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000731s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000143s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.012470s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008477s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.001729s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000026s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.009538s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php:95) D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php:95) D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php:95) D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001111s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001194s ]
+
+[ 2018-03-27T17:39:11+08:00 ] ::1 /TP/index.php/Admin/Cate/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000361s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000468s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000512s ]
+SQL: SHOW COLUMNS FROM `xlr_menus` [ RunTime:0.0056s ]
+SQL: SELECT * FROM `xlr_menus` WHERE `display` = 1 AND `pid` = 1 ORDER BY `order` asc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `xlr_menus` WHERE `display` = 1 AND `pid` = 31 ORDER BY `order` asc  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `xlr_menus` WHERE `display` = 1 AND `pid` = 32 ORDER BY `order` asc  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `xlr_menus` WHERE `display` = 1 AND `pid` = 24 ORDER BY `order` asc  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `xlr_menus` WHERE `display` = 1 AND `pid` = 25 ORDER BY `order` asc  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `xlr_menus` WHERE `display` = 1 AND `pid` = 29 ORDER BY `order` asc  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `xlr_menus` WHERE `display` = 1 AND `pid` = 21 ORDER BY `order` asc  [ RunTime:0.0011s ]
+SQL: SELECT * FROM `xlr_menus` WHERE `display` = 1 AND `pid` = 22 ORDER BY `order` asc  [ RunTime:0.0014s ]
+SQL: SELECT * FROM `xlr_menus` WHERE `display` = 1 AND `pid` = 23 ORDER BY `order` asc  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `xlr_menus` WHERE `display` = 1 AND `pid` = 18 ORDER BY `order` asc  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `xlr_menus` WHERE `display` = 1 AND `pid` = 19 ORDER BY `order` asc  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `xlr_menus` WHERE `display` = 1 AND `pid` = 20 ORDER BY `order` asc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `xlr_menus` WHERE `display` = 1 AND `pid` = 15 ORDER BY `order` asc  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `xlr_menus` WHERE `display` = 1 AND `pid` = 16 ORDER BY `order` asc  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `xlr_menus` WHERE `display` = 1 AND `pid` = 17 ORDER BY `order` asc  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `xlr_menus` WHERE `display` = 1 AND `pid` = 8 ORDER BY `order` asc  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `xlr_menus` WHERE `display` = 1 AND `pid` = 3 ORDER BY `order` asc  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `xlr_menus` WHERE `display` = 1 AND `pid` = 4 ORDER BY `order` asc  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `xlr_menus` WHERE `display` = 1 AND `pid` = 5 ORDER BY `order` asc  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `xlr_menus` WHERE `display` = 1 AND `pid` = 9 ORDER BY `order` asc  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `xlr_menus` WHERE `display` = 1 AND `pid` = 10 ORDER BY `order` asc  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `xlr_menus` WHERE `display` = 1 AND `pid` = 11 ORDER BY `order` asc  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `xlr_menus` WHERE `display` = 1 AND `pid` = 12 ORDER BY `order` asc  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `xlr_menus` WHERE `display` = 1 AND `pid` = 13 ORDER BY `order` asc  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `xlr_menus` WHERE `display` = 1 AND `pid` = 14 ORDER BY `order` asc  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `xlr_menus` WHERE `display` = 1 AND `pid` = 7 ORDER BY `order` asc  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xlr_cate` [ RunTime:0.0065s ]
+SQL: SELECT * FROM `xlr_cate` WHERE `pid` = 0  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `xlr_cate` WHERE `pid` = 1  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `xlr_cate` WHERE `pid` = 4  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `xlr_cate` WHERE `pid` = 5  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `xlr_cate` WHERE `pid` = 6  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `xlr_cate` WHERE `pid` = 7  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `xlr_cate` WHERE `pid` = 11  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `xlr_cate` WHERE `pid` = 2  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `xlr_cate` WHERE `pid` = 13  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `xlr_cate` WHERE `pid` = 14  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `xlr_cate` WHERE `pid` = 15  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `xlr_cate` WHERE `pid` = 17  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `xlr_cate` WHERE `pid` = 18  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `xlr_cate` WHERE `pid` = 20  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `xlr_cate` WHERE `pid` = 3  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `xlr_cate` WHERE `pid` = 19  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `xlr_attr` [ RunTime:0.0107s ]
+SQL: SELECT * FROM `xlr_attr` WHERE `cate_id` = 0  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `xlr_cate` WHERE ( `pid`=0 )  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000129s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000231s ]
+NOTIC: [8] Use of undefined constant en - assumed 'en' D:\xampp\htdocs\TP\App\Runtime\Cache\Admin\ebbcb6553e826fbc091d4252662003b5.php 第 432 行.
+NOTIC: [8] Use of undefined constant en - assumed 'en' D:\xampp\htdocs\TP\App\Runtime\Cache\Admin\ebbcb6553e826fbc091d4252662003b5.php 第 432 行.
+NOTIC: [8] Use of undefined constant en - assumed 'en' D:\xampp\htdocs\TP\App\Runtime\Cache\Admin\ebbcb6553e826fbc091d4252662003b5.php 第 432 行.
+NOTIC: [8] Use of undefined constant en - assumed 'en' D:\xampp\htdocs\TP\App\Runtime\Cache\Admin\ebbcb6553e826fbc091d4252662003b5.php 第 432 行.
+NOTIC: [8] Use of undefined constant en - assumed 'en' D:\xampp\htdocs\TP\App\Runtime\Cache\Admin\ebbcb6553e826fbc091d4252662003b5.php 第 432 行.
+NOTIC: [8] Use of undefined constant en - assumed 'en' D:\xampp\htdocs\TP\App\Runtime\Cache\Admin\ebbcb6553e826fbc091d4252662003b5.php 第 432 行.
+NOTIC: [8] Use of undefined constant en - assumed 'en' D:\xampp\htdocs\TP\App\Runtime\Cache\Admin\ebbcb6553e826fbc091d4252662003b5.php 第 432 行.
+NOTIC: [8] Use of undefined constant en - assumed 'en' D:\xampp\htdocs\TP\App\Runtime\Cache\Admin\ebbcb6553e826fbc091d4252662003b5.php 第 432 行.
+NOTIC: [8] Use of undefined constant en - assumed 'en' D:\xampp\htdocs\TP\App\Runtime\Cache\Admin\ebbcb6553e826fbc091d4252662003b5.php 第 432 行.
+NOTIC: [8] Use of undefined constant en - assumed 'en' D:\xampp\htdocs\TP\App\Runtime\Cache\Admin\ebbcb6553e826fbc091d4252662003b5.php 第 432 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021280s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021356s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000540s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000575s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000157s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.025405s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022578s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.002907s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000013s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.025166s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php:95) D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php:95) D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php:95) D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001199s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001282s ]
+

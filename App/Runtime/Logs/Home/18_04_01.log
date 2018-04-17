@@ -1,0 +1,2260 @@
+[ 2018-04-01T13:52:02+08:00 ] ::1 /TP/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000496s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000774s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000836s ]
+SQL: SHOW COLUMNS FROM `xlr_menus` [ RunTime:0.0041s ]
+SQL: SELECT * FROM `xlr_menus` WHERE `display` = 1 AND `is_home` = 1 ORDER BY `order` asc  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000393s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000463s ]
+NOTIC: [8] Use of undefined constant en - assumed 'en' D:\xampp\htdocs\TP\App\Runtime\Cache\Home\c0dc342f211e104eba0a4afbe4b0b366.php 第 690 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\xampp\htdocs\TP\App\Runtime\Cache\Home\c0dc342f211e104eba0a4afbe4b0b366.php 第 690 行.
+NOTIC: [8] Use of undefined constant en - assumed 'en' D:\xampp\htdocs\TP\App\Runtime\Cache\Home\c0dc342f211e104eba0a4afbe4b0b366.php 第 690 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\xampp\htdocs\TP\App\Runtime\Cache\Home\c0dc342f211e104eba0a4afbe4b0b366.php 第 690 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022946s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022994s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000551s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000584s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.004037s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.192730s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.198685s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.001526s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000013s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.199849s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php:95) D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php:95) D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php:95) D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000830s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000881s ]
+
+[ 2018-04-01T13:59:11+08:00 ] ::1 /TP/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000514s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000758s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000802s ]
+SQL: SHOW COLUMNS FROM `xlr_menus` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `xlr_menus` WHERE `display` = 1 AND `is_home` = 1 ORDER BY `order` asc  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000194s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000237s ]
+NOTIC: [8] Use of undefined constant en - assumed 'en' D:\xampp\htdocs\TP\App\Runtime\Cache\Home\c0dc342f211e104eba0a4afbe4b0b366.php 第 690 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\xampp\htdocs\TP\App\Runtime\Cache\Home\c0dc342f211e104eba0a4afbe4b0b366.php 第 690 行.
+NOTIC: [8] Use of undefined constant en - assumed 'en' D:\xampp\htdocs\TP\App\Runtime\Cache\Home\c0dc342f211e104eba0a4afbe4b0b366.php 第 690 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\xampp\htdocs\TP\App\Runtime\Cache\Home\c0dc342f211e104eba0a4afbe4b0b366.php 第 690 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016704s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016745s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000553s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000584s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001983s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.116772s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.132848s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.001215s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000052s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.138159s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php:95) D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php:95) D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php:95) D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002404s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002531s ]
+
+[ 2018-04-01T13:59:13+08:00 ] ::1 /TP/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000439s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000484s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000530s ]
+SQL: SHOW COLUMNS FROM `xlr_menus` [ RunTime:0.0054s ]
+SQL: SELECT * FROM `xlr_menus` WHERE `display` = 1 AND `is_home` = 1 ORDER BY `order` asc  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000246s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000300s ]
+NOTIC: [8] Use of undefined constant en - assumed 'en' D:\xampp\htdocs\TP\App\Runtime\Cache\Home\c0dc342f211e104eba0a4afbe4b0b366.php 第 690 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\xampp\htdocs\TP\App\Runtime\Cache\Home\c0dc342f211e104eba0a4afbe4b0b366.php 第 690 行.
+NOTIC: [8] Use of undefined constant en - assumed 'en' D:\xampp\htdocs\TP\App\Runtime\Cache\Home\c0dc342f211e104eba0a4afbe4b0b366.php 第 690 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\xampp\htdocs\TP\App\Runtime\Cache\Home\c0dc342f211e104eba0a4afbe4b0b366.php 第 690 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017299s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017342s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000312s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000343s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.005587s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.114226s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.128753s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.000662s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000095s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.129834s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php:95) D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php:95) D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php:95) D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000933s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001035s ]
+
+[ 2018-04-01T13:59:33+08:00 ] ::1 /TP/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000674s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000803s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000848s ]
+SQL: SHOW COLUMNS FROM `xlr_menus` [ RunTime:0.0086s ]
+SQL: SELECT * FROM `xlr_menus` WHERE `display` = 1 AND `is_home` = 1 ORDER BY `order` asc  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000311s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000432s ]
+NOTIC: [8] Use of undefined constant en - assumed 'en' D:\xampp\htdocs\TP\App\Runtime\Cache\Home\c0dc342f211e104eba0a4afbe4b0b366.php 第 690 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\xampp\htdocs\TP\App\Runtime\Cache\Home\c0dc342f211e104eba0a4afbe4b0b366.php 第 690 行.
+NOTIC: [8] Use of undefined constant en - assumed 'en' D:\xampp\htdocs\TP\App\Runtime\Cache\Home\c0dc342f211e104eba0a4afbe4b0b366.php 第 690 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\xampp\htdocs\TP\App\Runtime\Cache\Home\c0dc342f211e104eba0a4afbe4b0b366.php 第 690 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017492s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017567s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000787s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000836s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001570s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.175800s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.181722s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.001475s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000011s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.182574s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php:95) D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php:95) D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php:95) D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001756s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001869s ]
+
+[ 2018-04-01T14:00:54+08:00 ] ::1 /TP/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000494s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001018s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001079s ]
+SQL: SHOW COLUMNS FROM `xlr_menus` [ RunTime:0.0069s ]
+SQL: SELECT * FROM `xlr_menus` WHERE `display` = 1 AND `is_home` = 1 ORDER BY `order` asc  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000210s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000259s ]
+NOTIC: [8] Use of undefined constant en - assumed 'en' D:\xampp\htdocs\TP\App\Runtime\Cache\Home\c0dc342f211e104eba0a4afbe4b0b366.php 第 690 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\xampp\htdocs\TP\App\Runtime\Cache\Home\c0dc342f211e104eba0a4afbe4b0b366.php 第 690 行.
+NOTIC: [8] Use of undefined constant en - assumed 'en' D:\xampp\htdocs\TP\App\Runtime\Cache\Home\c0dc342f211e104eba0a4afbe4b0b366.php 第 690 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\xampp\htdocs\TP\App\Runtime\Cache\Home\c0dc342f211e104eba0a4afbe4b0b366.php 第 690 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023705s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023756s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000577s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000608s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.002518s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.119674s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.133996s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.001274s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000018s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.134950s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php:95) D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php:95) D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php:95) D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003503s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003747s ]
+
+[ 2018-04-01T14:01:03+08:00 ] ::1 /TP/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000599s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000671s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000836s ]
+SQL: SHOW COLUMNS FROM `xlr_menus` [ RunTime:0.0053s ]
+SQL: SELECT * FROM `xlr_menus` WHERE `display` = 1 AND `is_home` = 1 ORDER BY `order` asc  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000194s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000247s ]
+NOTIC: [8] Use of undefined constant en - assumed 'en' D:\xampp\htdocs\TP\App\Runtime\Cache\Home\c0dc342f211e104eba0a4afbe4b0b366.php 第 690 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\xampp\htdocs\TP\App\Runtime\Cache\Home\c0dc342f211e104eba0a4afbe4b0b366.php 第 690 行.
+NOTIC: [8] Use of undefined constant en - assumed 'en' D:\xampp\htdocs\TP\App\Runtime\Cache\Home\c0dc342f211e104eba0a4afbe4b0b366.php 第 690 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\xampp\htdocs\TP\App\Runtime\Cache\Home\c0dc342f211e104eba0a4afbe4b0b366.php 第 690 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013936s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013976s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000296s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000325s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001451s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.097662s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.100623s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.000638s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000010s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.101127s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php:95) D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php:95) D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php:95) D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.009706s ]
+INFO: [ app_end ] --END-- [ RunTime:0.009852s ]
+
+[ 2018-04-01T14:01:04+08:00 ] ::1 /TP/index.php/Home/Goods/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000396s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001210s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001311s ]
+SQL: SHOW COLUMNS FROM `xlr_menus` [ RunTime:0.0043s ]
+SQL: SELECT * FROM `xlr_menus` WHERE `display` = 1 AND `is_home` = 1 ORDER BY `order` asc  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `xlr_goods` [ RunTime:0.0449s ]
+SQL: SELECT * FROM `xlr_goods`  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000198s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000248s ]
+NOTIC: [8] Use of undefined constant en - assumed 'en' D:\xampp\htdocs\TP\App\Runtime\Cache\Home\c0dc342f211e104eba0a4afbe4b0b366.php 第 690 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\xampp\htdocs\TP\App\Runtime\Cache\Home\c0dc342f211e104eba0a4afbe4b0b366.php 第 690 行.
+NOTIC: [8] Use of undefined constant en - assumed 'en' D:\xampp\htdocs\TP\App\Runtime\Cache\Home\c0dc342f211e104eba0a4afbe4b0b366.php 第 690 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\xampp\htdocs\TP\App\Runtime\Cache\Home\c0dc342f211e104eba0a4afbe4b0b366.php 第 690 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013892s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013935s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000334s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000365s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000115s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.075909s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.079914s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.012066s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000008s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.091669s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php:95) D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php:95) D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php:95) D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000525s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000562s ]
+
+[ 2018-04-01T14:01:23+08:00 ] ::1 /TP/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001025s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001447s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001545s ]
+SQL: SHOW COLUMNS FROM `xlr_menus` [ RunTime:0.0067s ]
+SQL: SELECT * FROM `xlr_menus` WHERE `display` = 1 AND `is_home` = 1 ORDER BY `order` asc  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000584s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000787s ]
+NOTIC: [8] Use of undefined constant en - assumed 'en' D:\xampp\htdocs\TP\App\Runtime\Cache\Home\c0dc342f211e104eba0a4afbe4b0b366.php 第 690 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\xampp\htdocs\TP\App\Runtime\Cache\Home\c0dc342f211e104eba0a4afbe4b0b366.php 第 690 行.
+NOTIC: [8] Use of undefined constant en - assumed 'en' D:\xampp\htdocs\TP\App\Runtime\Cache\Home\c0dc342f211e104eba0a4afbe4b0b366.php 第 690 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\xampp\htdocs\TP\App\Runtime\Cache\Home\c0dc342f211e104eba0a4afbe4b0b366.php 第 690 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035101s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035188s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001049s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001116s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.003326s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.202064s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.207381s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.002198s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000022s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.208900s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php:95) D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php:95) D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php:95) D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005285s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005775s ]
+
+[ 2018-04-01T14:03:26+08:00 ] ::1 /TP/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000473s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000748s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000793s ]
+SQL: SHOW COLUMNS FROM `xlr_menus` [ RunTime:0.0055s ]
+SQL: SELECT * FROM `xlr_menus` WHERE `display` = 1 AND `is_home` = 1 ORDER BY `order` asc  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000208s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000254s ]
+NOTIC: [8] Use of undefined constant en - assumed 'en' D:\xampp\htdocs\TP\App\Runtime\Cache\Home\c0dc342f211e104eba0a4afbe4b0b366.php 第 690 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\xampp\htdocs\TP\App\Runtime\Cache\Home\c0dc342f211e104eba0a4afbe4b0b366.php 第 690 行.
+NOTIC: [8] Use of undefined constant en - assumed 'en' D:\xampp\htdocs\TP\App\Runtime\Cache\Home\c0dc342f211e104eba0a4afbe4b0b366.php 第 690 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\xampp\htdocs\TP\App\Runtime\Cache\Home\c0dc342f211e104eba0a4afbe4b0b366.php 第 690 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015451s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015496s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000554s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000585s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.004156s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.113168s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.120618s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.001177s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000015s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.121657s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php:95) D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php:95) D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php:95) D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001271s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001347s ]
+
+[ 2018-04-01T14:03:28+08:00 ] ::1 /TP/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000407s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000456s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000498s ]
+SQL: SHOW COLUMNS FROM `xlr_menus` [ RunTime:0.0213s ]
+SQL: SELECT * FROM `xlr_menus` WHERE `display` = 1 AND `is_home` = 1 ORDER BY `order` asc  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000392s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000483s ]
+NOTIC: [8] Use of undefined constant en - assumed 'en' D:\xampp\htdocs\TP\App\Runtime\Cache\Home\c0dc342f211e104eba0a4afbe4b0b366.php 第 690 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\xampp\htdocs\TP\App\Runtime\Cache\Home\c0dc342f211e104eba0a4afbe4b0b366.php 第 690 行.
+NOTIC: [8] Use of undefined constant en - assumed 'en' D:\xampp\htdocs\TP\App\Runtime\Cache\Home\c0dc342f211e104eba0a4afbe4b0b366.php 第 690 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\xampp\htdocs\TP\App\Runtime\Cache\Home\c0dc342f211e104eba0a4afbe4b0b366.php 第 690 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015831s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015894s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000517s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000562s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001722s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.106161s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.114459s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.000921s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000017s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.115092s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php:95) D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php:95) D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php:95) D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001844s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001990s ]
+
+[ 2018-04-01T14:03:41+08:00 ] ::1 /TP/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000482s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000759s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000803s ]
+SQL: SHOW COLUMNS FROM `xlr_menus` [ RunTime:0.0048s ]
+SQL: SELECT * FROM `xlr_menus` WHERE `display` = 1 AND `is_home` = 1 ORDER BY `order` asc  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000229s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000281s ]
+NOTIC: [8] Use of undefined constant en - assumed 'en' D:\xampp\htdocs\TP\App\Runtime\Cache\Home\c0dc342f211e104eba0a4afbe4b0b366.php 第 690 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\xampp\htdocs\TP\App\Runtime\Cache\Home\c0dc342f211e104eba0a4afbe4b0b366.php 第 690 行.
+NOTIC: [8] Use of undefined constant en - assumed 'en' D:\xampp\htdocs\TP\App\Runtime\Cache\Home\c0dc342f211e104eba0a4afbe4b0b366.php 第 690 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\xampp\htdocs\TP\App\Runtime\Cache\Home\c0dc342f211e104eba0a4afbe4b0b366.php 第 690 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024269s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024311s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000559s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000589s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.008036s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.178881s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.202841s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.001269s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000017s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.203905s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php:95) D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php:95) D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php:95) D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001419s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001527s ]
+
+[ 2018-04-01T14:06:10+08:00 ] ::1 /TP/index.php/Home/Goods/car.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000810s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000803s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000850s ]
+SQL: SHOW COLUMNS FROM `xlr_menus` [ RunTime:0.0055s ]
+SQL: SELECT * FROM `xlr_menus` WHERE `display` = 1 AND `is_home` = 1 ORDER BY `order` asc  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xlr_car` [ RunTime:0.0866s ]
+SQL: SELECT * FROM `xlr_car` WHERE ( `user_id`=1 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xlr_goods` [ RunTime:0.0038s ]
+SQL: SELECT * FROM `xlr_goods` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.0506s ]
+SQL: SELECT * FROM `xlr_goods` WHERE ( 1=1 AND id='3' ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000178s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000222s ]
+NOTIC: [8] Use of undefined constant en - assumed 'en' D:\xampp\htdocs\TP\App\Runtime\Cache\Home\c0dc342f211e104eba0a4afbe4b0b366.php 第 690 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\xampp\htdocs\TP\App\Runtime\Cache\Home\c0dc342f211e104eba0a4afbe4b0b366.php 第 690 行.
+NOTIC: [8] Use of undefined constant en - assumed 'en' D:\xampp\htdocs\TP\App\Runtime\Cache\Home\c0dc342f211e104eba0a4afbe4b0b366.php 第 690 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\xampp\htdocs\TP\App\Runtime\Cache\Home\c0dc342f211e104eba0a4afbe4b0b366.php 第 690 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016386s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016453s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003461s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003540s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000115s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.036760s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\xampp\htdocs\TP\App\Runtime\Cache\Home\d1fecdd7aca6fe942542b449f239cd34.php 第 29 行.
+NOTIC: [8] Use of undefined constant goods - assumed 'goods' D:\xampp\htdocs\TP\App\Runtime\Cache\Home\d1fecdd7aca6fe942542b449f239cd34.php 第 35 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\xampp\htdocs\TP\App\Runtime\Cache\Home\d1fecdd7aca6fe942542b449f239cd34.php 第 35 行.
+NOTIC: [8] Use of undefined constant spec_desc - assumed 'spec_desc' D:\xampp\htdocs\TP\App\Runtime\Cache\Home\d1fecdd7aca6fe942542b449f239cd34.php 第 39 行.
+NOTIC: [8] Use of undefined constant number - assumed 'number' D:\xampp\htdocs\TP\App\Runtime\Cache\Home\d1fecdd7aca6fe942542b449f239cd34.php 第 43 行.
+NOTIC: [8] Use of undefined constant goods - assumed 'goods' D:\xampp\htdocs\TP\App\Runtime\Cache\Home\d1fecdd7aca6fe942542b449f239cd34.php 第 46 行.
+NOTIC: [8] Use of undefined constant shop_price - assumed 'shop_price' D:\xampp\htdocs\TP\App\Runtime\Cache\Home\d1fecdd7aca6fe942542b449f239cd34.php 第 46 行.
+NOTIC: [8] Use of undefined constant goods - assumed 'goods' D:\xampp\htdocs\TP\App\Runtime\Cache\Home\d1fecdd7aca6fe942542b449f239cd34.php 第 47 行.
+NOTIC: [8] Use of undefined constant shop_price - assumed 'shop_price' D:\xampp\htdocs\TP\App\Runtime\Cache\Home\d1fecdd7aca6fe942542b449f239cd34.php 第 47 行.
+NOTIC: [8] Use of undefined constant number - assumed 'number' D:\xampp\htdocs\TP\App\Runtime\Cache\Home\d1fecdd7aca6fe942542b449f239cd34.php 第 47 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\xampp\htdocs\TP\App\Runtime\Cache\Home\d1fecdd7aca6fe942542b449f239cd34.php 第 29 行.
+NOTIC: [8] Use of undefined constant goods - assumed 'goods' D:\xampp\htdocs\TP\App\Runtime\Cache\Home\d1fecdd7aca6fe942542b449f239cd34.php 第 35 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\xampp\htdocs\TP\App\Runtime\Cache\Home\d1fecdd7aca6fe942542b449f239cd34.php 第 35 行.
+NOTIC: [8] Use of undefined constant spec_desc - assumed 'spec_desc' D:\xampp\htdocs\TP\App\Runtime\Cache\Home\d1fecdd7aca6fe942542b449f239cd34.php 第 39 行.
+NOTIC: [8] Use of undefined constant number - assumed 'number' D:\xampp\htdocs\TP\App\Runtime\Cache\Home\d1fecdd7aca6fe942542b449f239cd34.php 第 43 行.
+NOTIC: [8] Use of undefined constant goods - assumed 'goods' D:\xampp\htdocs\TP\App\Runtime\Cache\Home\d1fecdd7aca6fe942542b449f239cd34.php 第 46 行.
+NOTIC: [8] Use of undefined constant shop_price - assumed 'shop_price' D:\xampp\htdocs\TP\App\Runtime\Cache\Home\d1fecdd7aca6fe942542b449f239cd34.php 第 46 行.
+NOTIC: [8] Use of undefined constant goods - assumed 'goods' D:\xampp\htdocs\TP\App\Runtime\Cache\Home\d1fecdd7aca6fe942542b449f239cd34.php 第 47 行.
+NOTIC: [8] Use of undefined constant shop_price - assumed 'shop_price' D:\xampp\htdocs\TP\App\Runtime\Cache\Home\d1fecdd7aca6fe942542b449f239cd34.php 第 47 行.
+NOTIC: [8] Use of undefined constant number - assumed 'number' D:\xampp\htdocs\TP\App\Runtime\Cache\Home\d1fecdd7aca6fe942542b449f239cd34.php 第 47 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.047523s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.005265s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000014s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.049418s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php:95) D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php:95) D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php:95) D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001300s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001369s ]
+
+[ 2018-04-01T14:06:28+08:00 ] ::1 /TP/index.php/Home/Goods/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000477s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000795s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000849s ]
+SQL: SHOW COLUMNS FROM `xlr_menus` [ RunTime:0.0047s ]
+SQL: SELECT * FROM `xlr_menus` WHERE `display` = 1 AND `is_home` = 1 ORDER BY `order` asc  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xlr_goods` [ RunTime:0.0047s ]
+SQL: SELECT * FROM `xlr_goods`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000360s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000503s ]
+NOTIC: [8] Use of undefined constant en - assumed 'en' D:\xampp\htdocs\TP\App\Runtime\Cache\Home\c0dc342f211e104eba0a4afbe4b0b366.php 第 690 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\xampp\htdocs\TP\App\Runtime\Cache\Home\c0dc342f211e104eba0a4afbe4b0b366.php 第 690 行.
+NOTIC: [8] Use of undefined constant en - assumed 'en' D:\xampp\htdocs\TP\App\Runtime\Cache\Home\c0dc342f211e104eba0a4afbe4b0b366.php 第 690 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\xampp\htdocs\TP\App\Runtime\Cache\Home\c0dc342f211e104eba0a4afbe4b0b366.php 第 690 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021645s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021695s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000541s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000574s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000142s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.010415s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009417s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.001178s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000049s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.010210s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php:95) D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php:95) D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php:95) D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001008s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001072s ]
+
+[ 2018-04-01T14:06:37+08:00 ] ::1 /TP/index.php/Home/Goods/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000380s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000451s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000493s ]
+SQL: SHOW COLUMNS FROM `xlr_menus` [ RunTime:0.0144s ]
+SQL: SELECT * FROM `xlr_menus` WHERE `display` = 1 AND `is_home` = 1 ORDER BY `order` asc  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xlr_goods` [ RunTime:0.0049s ]
+SQL: SELECT * FROM `xlr_goods`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000197s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000268s ]
+NOTIC: [8] Use of undefined constant en - assumed 'en' D:\xampp\htdocs\TP\App\Runtime\Cache\Home\c0dc342f211e104eba0a4afbe4b0b366.php 第 690 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\xampp\htdocs\TP\App\Runtime\Cache\Home\c0dc342f211e104eba0a4afbe4b0b366.php 第 690 行.
+NOTIC: [8] Use of undefined constant en - assumed 'en' D:\xampp\htdocs\TP\App\Runtime\Cache\Home\c0dc342f211e104eba0a4afbe4b0b366.php 第 690 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\xampp\htdocs\TP\App\Runtime\Cache\Home\c0dc342f211e104eba0a4afbe4b0b366.php 第 690 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014199s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014255s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000335s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000364s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000137s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.008334s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007615s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.000681s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000013s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.007980s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php:95) D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php:95) D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php:95) D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000710s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000773s ]
+
+[ 2018-04-01T14:06:43+08:00 ] ::1 /TP/index.php/Home/order/detail.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000624s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001421s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001505s ]
+SQL: SHOW COLUMNS FROM `xlr_menus` [ RunTime:0.0038s ]
+SQL: SELECT * FROM `xlr_menus` WHERE `display` = 1 AND `is_home` = 1 ORDER BY `order` asc  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xlr_order_detail` [ RunTime:0.1078s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM `xlr_order_detail` WHERE ( order_id= ) 
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM `xlr_order_detail` WHERE ( order_id= ) 
+
+[ 2018-04-01T14:06:56+08:00 ] ::1 /TP/index.php/Home/Goods/car.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000510s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001577s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001737s ]
+SQL: SHOW COLUMNS FROM `xlr_menus` [ RunTime:0.0048s ]
+SQL: SELECT * FROM `xlr_menus` WHERE `display` = 1 AND `is_home` = 1 ORDER BY `order` asc  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xlr_car` [ RunTime:0.0041s ]
+SQL: SELECT * FROM `xlr_car` WHERE ( `user_id`=1 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xlr_goods` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `xlr_goods` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `xlr_goods` WHERE ( 1=1 AND id='3' ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000191s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000239s ]
+NOTIC: [8] Use of undefined constant en - assumed 'en' D:\xampp\htdocs\TP\App\Runtime\Cache\Home\c0dc342f211e104eba0a4afbe4b0b366.php 第 690 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\xampp\htdocs\TP\App\Runtime\Cache\Home\c0dc342f211e104eba0a4afbe4b0b366.php 第 690 行.
+NOTIC: [8] Use of undefined constant en - assumed 'en' D:\xampp\htdocs\TP\App\Runtime\Cache\Home\c0dc342f211e104eba0a4afbe4b0b366.php 第 690 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\xampp\htdocs\TP\App\Runtime\Cache\Home\c0dc342f211e104eba0a4afbe4b0b366.php 第 690 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019868s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019906s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000335s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000364s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000115s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.006920s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\xampp\htdocs\TP\App\Runtime\Cache\Home\d1fecdd7aca6fe942542b449f239cd34.php 第 29 行.
+NOTIC: [8] Use of undefined constant goods - assumed 'goods' D:\xampp\htdocs\TP\App\Runtime\Cache\Home\d1fecdd7aca6fe942542b449f239cd34.php 第 35 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\xampp\htdocs\TP\App\Runtime\Cache\Home\d1fecdd7aca6fe942542b449f239cd34.php 第 35 行.
+NOTIC: [8] Use of undefined constant spec_desc - assumed 'spec_desc' D:\xampp\htdocs\TP\App\Runtime\Cache\Home\d1fecdd7aca6fe942542b449f239cd34.php 第 39 行.
+NOTIC: [8] Use of undefined constant number - assumed 'number' D:\xampp\htdocs\TP\App\Runtime\Cache\Home\d1fecdd7aca6fe942542b449f239cd34.php 第 43 行.
+NOTIC: [8] Use of undefined constant goods - assumed 'goods' D:\xampp\htdocs\TP\App\Runtime\Cache\Home\d1fecdd7aca6fe942542b449f239cd34.php 第 46 行.
+NOTIC: [8] Use of undefined constant shop_price - assumed 'shop_price' D:\xampp\htdocs\TP\App\Runtime\Cache\Home\d1fecdd7aca6fe942542b449f239cd34.php 第 46 行.
+NOTIC: [8] Use of undefined constant goods - assumed 'goods' D:\xampp\htdocs\TP\App\Runtime\Cache\Home\d1fecdd7aca6fe942542b449f239cd34.php 第 47 行.
+NOTIC: [8] Use of undefined constant shop_price - assumed 'shop_price' D:\xampp\htdocs\TP\App\Runtime\Cache\Home\d1fecdd7aca6fe942542b449f239cd34.php 第 47 行.
+NOTIC: [8] Use of undefined constant number - assumed 'number' D:\xampp\htdocs\TP\App\Runtime\Cache\Home\d1fecdd7aca6fe942542b449f239cd34.php 第 47 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\xampp\htdocs\TP\App\Runtime\Cache\Home\d1fecdd7aca6fe942542b449f239cd34.php 第 29 行.
+NOTIC: [8] Use of undefined constant goods - assumed 'goods' D:\xampp\htdocs\TP\App\Runtime\Cache\Home\d1fecdd7aca6fe942542b449f239cd34.php 第 35 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\xampp\htdocs\TP\App\Runtime\Cache\Home\d1fecdd7aca6fe942542b449f239cd34.php 第 35 行.
+NOTIC: [8] Use of undefined constant spec_desc - assumed 'spec_desc' D:\xampp\htdocs\TP\App\Runtime\Cache\Home\d1fecdd7aca6fe942542b449f239cd34.php 第 39 行.
+NOTIC: [8] Use of undefined constant number - assumed 'number' D:\xampp\htdocs\TP\App\Runtime\Cache\Home\d1fecdd7aca6fe942542b449f239cd34.php 第 43 行.
+NOTIC: [8] Use of undefined constant goods - assumed 'goods' D:\xampp\htdocs\TP\App\Runtime\Cache\Home\d1fecdd7aca6fe942542b449f239cd34.php 第 46 行.
+NOTIC: [8] Use of undefined constant shop_price - assumed 'shop_price' D:\xampp\htdocs\TP\App\Runtime\Cache\Home\d1fecdd7aca6fe942542b449f239cd34.php 第 46 行.
+NOTIC: [8] Use of undefined constant goods - assumed 'goods' D:\xampp\htdocs\TP\App\Runtime\Cache\Home\d1fecdd7aca6fe942542b449f239cd34.php 第 47 行.
+NOTIC: [8] Use of undefined constant shop_price - assumed 'shop_price' D:\xampp\htdocs\TP\App\Runtime\Cache\Home\d1fecdd7aca6fe942542b449f239cd34.php 第 47 行.
+NOTIC: [8] Use of undefined constant number - assumed 'number' D:\xampp\htdocs\TP\App\Runtime\Cache\Home\d1fecdd7aca6fe942542b449f239cd34.php 第 47 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007015s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.000682s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000026s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.007501s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php:95) D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php:95) D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php:95) D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000891s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000961s ]
+
+[ 2018-04-01T14:06:58+08:00 ] ::1 /TP/index.php/Home/Goods/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000355s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002533s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002599s ]
+SQL: SHOW COLUMNS FROM `xlr_menus` [ RunTime:0.0066s ]
+SQL: SELECT * FROM `xlr_menus` WHERE `display` = 1 AND `is_home` = 1 ORDER BY `order` asc  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `xlr_goods` [ RunTime:0.0037s ]
+SQL: SELECT * FROM `xlr_goods`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000185s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000245s ]
+NOTIC: [8] Use of undefined constant en - assumed 'en' D:\xampp\htdocs\TP\App\Runtime\Cache\Home\c0dc342f211e104eba0a4afbe4b0b366.php 第 690 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\xampp\htdocs\TP\App\Runtime\Cache\Home\c0dc342f211e104eba0a4afbe4b0b366.php 第 690 行.
+NOTIC: [8] Use of undefined constant en - assumed 'en' D:\xampp\htdocs\TP\App\Runtime\Cache\Home\c0dc342f211e104eba0a4afbe4b0b366.php 第 690 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\xampp\htdocs\TP\App\Runtime\Cache\Home\c0dc342f211e104eba0a4afbe4b0b366.php 第 690 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019729s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019807s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000550s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000644s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000222s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.014345s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010680s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.004028s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000011s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.014095s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php:95) D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php:95) D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php:95) D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001640s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001781s ]
+
+[ 2018-04-01T14:07:09+08:00 ] ::1 /TP/index.php/Home/Goods/%E6%B3%A8%E5%86%8C.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000440s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000468s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000525s ]
+SQL: SHOW COLUMNS FROM `xlr_menus` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `xlr_menus` WHERE `display` = 1 AND `is_home` = 1 ORDER BY `order` asc  [ RunTime:0.0006s ]
+ERR: 非法操作:注册
+
+[ 2018-04-01T14:12:11+08:00 ] ::1 /TP/index.php/Home/Goods/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000775s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.009610s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009705s ]
+SQL: SHOW COLUMNS FROM `xlr_menus` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `xlr_menus` WHERE `display` = 1 AND `is_home` = 1 ORDER BY `order` asc  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `xlr_goods` [ RunTime:0.0063s ]
+SQL: SELECT * FROM `xlr_goods`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000187s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000236s ]
+NOTIC: [8] Use of undefined constant en - assumed 'en' D:\xampp\htdocs\TP\App\Runtime\Cache\Home\c0dc342f211e104eba0a4afbe4b0b366.php 第 690 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\xampp\htdocs\TP\App\Runtime\Cache\Home\c0dc342f211e104eba0a4afbe4b0b366.php 第 690 行.
+NOTIC: [8] Use of undefined constant en - assumed 'en' D:\xampp\htdocs\TP\App\Runtime\Cache\Home\c0dc342f211e104eba0a4afbe4b0b366.php 第 690 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\xampp\htdocs\TP\App\Runtime\Cache\Home\c0dc342f211e104eba0a4afbe4b0b366.php 第 690 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039112s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039174s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001529s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001572s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000084s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.015873s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013037s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.002676s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000010s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.014231s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php:95) D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php:95) D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php:95) D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002774s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002844s ]
+
+[ 2018-04-01T14:12:13+08:00 ] ::1 /TP/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000777s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001429s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001527s ]
+SQL: SHOW COLUMNS FROM `xlr_menus` [ RunTime:0.0081s ]
+SQL: SELECT * FROM `xlr_menus` WHERE `display` = 1 AND `is_home` = 1 ORDER BY `order` asc  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000293s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000377s ]
+NOTIC: [8] Use of undefined constant en - assumed 'en' D:\xampp\htdocs\TP\App\Runtime\Cache\Home\c0dc342f211e104eba0a4afbe4b0b366.php 第 690 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\xampp\htdocs\TP\App\Runtime\Cache\Home\c0dc342f211e104eba0a4afbe4b0b366.php 第 690 行.
+NOTIC: [8] Use of undefined constant en - assumed 'en' D:\xampp\htdocs\TP\App\Runtime\Cache\Home\c0dc342f211e104eba0a4afbe4b0b366.php 第 690 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\xampp\htdocs\TP\App\Runtime\Cache\Home\c0dc342f211e104eba0a4afbe4b0b366.php 第 690 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026597s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026743s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001040s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001104s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.002225s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.143614s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.145946s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.002133s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000010s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.147189s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php:95) D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php:95) D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php:95) D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001553s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001713s ]
+
+[ 2018-04-01T14:12:20+08:00 ] ::1 /TP/index.php/Home/Index/%E5%95%86%E5%93%81%E8%AF%A6%E6%83%85%EF%BC%88%E9%A4%90%E9%A5%AE%EF%BC%89.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000411s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000464s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000508s ]
+SQL: SHOW COLUMNS FROM `xlr_menus` [ RunTime:0.0056s ]
+SQL: SELECT * FROM `xlr_menus` WHERE `display` = 1 AND `is_home` = 1 ORDER BY `order` asc  [ RunTime:0.0004s ]
+ERR: 非法操作:商品详情（餐饮）
+
+[ 2018-04-01T14:12:22+08:00 ] ::1 /TP/index.php/Home/Index/%E5%95%86%E5%93%81%E8%AF%A6%E6%83%85%EF%BC%88%E9%A4%90%E9%A5%AE%EF%BC%89.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000390s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000429s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000471s ]
+SQL: SHOW COLUMNS FROM `xlr_menus` [ RunTime:0.0068s ]
+SQL: SELECT * FROM `xlr_menus` WHERE `display` = 1 AND `is_home` = 1 ORDER BY `order` asc  [ RunTime:0.0003s ]
+ERR: 非法操作:商品详情（餐饮）
+
+[ 2018-04-01T14:14:27+08:00 ] ::1 /TP/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000573s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000761s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000805s ]
+SQL: SHOW COLUMNS FROM `xlr_menus` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `xlr_menus` WHERE `display` = 1 AND `is_home` = 1 ORDER BY `order` asc  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000198s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000245s ]
+NOTIC: [8] Use of undefined constant en - assumed 'en' D:\xampp\htdocs\TP\App\Runtime\Cache\Home\c0dc342f211e104eba0a4afbe4b0b366.php 第 690 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\xampp\htdocs\TP\App\Runtime\Cache\Home\c0dc342f211e104eba0a4afbe4b0b366.php 第 690 行.
+NOTIC: [8] Use of undefined constant en - assumed 'en' D:\xampp\htdocs\TP\App\Runtime\Cache\Home\c0dc342f211e104eba0a4afbe4b0b366.php 第 690 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\xampp\htdocs\TP\App\Runtime\Cache\Home\c0dc342f211e104eba0a4afbe4b0b366.php 第 690 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017796s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017850s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000926s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001713s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.114124s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.115215s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.004515s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000020s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.119048s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php:95) D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php:95) D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php:95) D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.019281s ]
+INFO: [ app_end ] --END-- [ RunTime:0.022646s ]
+
+[ 2018-04-01T14:14:29+08:00 ] ::1 /TP/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000604s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001259s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001424s ]
+SQL: SHOW COLUMNS FROM `xlr_menus` [ RunTime:0.0062s ]
+SQL: SELECT * FROM `xlr_menus` WHERE `display` = 1 AND `is_home` = 1 ORDER BY `order` asc  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000257s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000327s ]
+NOTIC: [8] Use of undefined constant en - assumed 'en' D:\xampp\htdocs\TP\App\Runtime\Cache\Home\c0dc342f211e104eba0a4afbe4b0b366.php 第 690 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\xampp\htdocs\TP\App\Runtime\Cache\Home\c0dc342f211e104eba0a4afbe4b0b366.php 第 690 行.
+NOTIC: [8] Use of undefined constant en - assumed 'en' D:\xampp\htdocs\TP\App\Runtime\Cache\Home\c0dc342f211e104eba0a4afbe4b0b366.php 第 690 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\xampp\htdocs\TP\App\Runtime\Cache\Home\c0dc342f211e104eba0a4afbe4b0b366.php 第 690 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014854s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014898s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000291s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000321s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001363s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.111329s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.116114s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.001097s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000013s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.117173s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php:95) D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php:95) D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php:95) D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001104s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001170s ]
+
+[ 2018-04-01T14:14:31+08:00 ] ::1 /TP/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000361s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000453s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000496s ]
+SQL: SHOW COLUMNS FROM `xlr_menus` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `xlr_menus` WHERE `display` = 1 AND `is_home` = 1 ORDER BY `order` asc  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000198s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000243s ]
+NOTIC: [8] Use of undefined constant en - assumed 'en' D:\xampp\htdocs\TP\App\Runtime\Cache\Home\c0dc342f211e104eba0a4afbe4b0b366.php 第 690 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\xampp\htdocs\TP\App\Runtime\Cache\Home\c0dc342f211e104eba0a4afbe4b0b366.php 第 690 行.
+NOTIC: [8] Use of undefined constant en - assumed 'en' D:\xampp\htdocs\TP\App\Runtime\Cache\Home\c0dc342f211e104eba0a4afbe4b0b366.php 第 690 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\xampp\htdocs\TP\App\Runtime\Cache\Home\c0dc342f211e104eba0a4afbe4b0b366.php 第 690 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015157s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015210s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000573s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000705s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001394s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.106369s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.107561s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.001283s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000009s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.108347s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php:95) D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php:95) D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php:95) D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007311s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007406s ]
+
+[ 2018-04-01T14:19:21+08:00 ] ::1 /TP/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000522s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002355s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002458s ]
+SQL: SHOW COLUMNS FROM `xlr_menus` [ RunTime:0.0062s ]
+SQL: SELECT * FROM `xlr_menus` WHERE `display` = 1 AND `is_home` = 1 ORDER BY `order` asc  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000210s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000259s ]
+NOTIC: [8] Use of undefined constant en - assumed 'en' D:\xampp\htdocs\TP\App\Runtime\Cache\Home\c0dc342f211e104eba0a4afbe4b0b366.php 第 690 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\xampp\htdocs\TP\App\Runtime\Cache\Home\c0dc342f211e104eba0a4afbe4b0b366.php 第 690 行.
+NOTIC: [8] Use of undefined constant en - assumed 'en' D:\xampp\htdocs\TP\App\Runtime\Cache\Home\c0dc342f211e104eba0a4afbe4b0b366.php 第 690 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\xampp\htdocs\TP\App\Runtime\Cache\Home\c0dc342f211e104eba0a4afbe4b0b366.php 第 690 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016205s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016249s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000574s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000604s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001678s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.106474s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.109385s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.001267s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000010s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.110255s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php:95) D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php:95) D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php:95) D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004466s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004714s ]
+
+[ 2018-04-01T14:19:33+08:00 ] ::1 /TP/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000552s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003478s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003594s ]
+SQL: SHOW COLUMNS FROM `xlr_menus` [ RunTime:0.0073s ]
+SQL: SELECT * FROM `xlr_menus` WHERE `display` = 1 AND `is_home` = 1 ORDER BY `order` asc  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000195s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000242s ]
+NOTIC: [8] Use of undefined constant en - assumed 'en' D:\xampp\htdocs\TP\App\Runtime\Cache\Home\c0dc342f211e104eba0a4afbe4b0b366.php 第 690 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\xampp\htdocs\TP\App\Runtime\Cache\Home\c0dc342f211e104eba0a4afbe4b0b366.php 第 690 行.
+NOTIC: [8] Use of undefined constant en - assumed 'en' D:\xampp\htdocs\TP\App\Runtime\Cache\Home\c0dc342f211e104eba0a4afbe4b0b366.php 第 690 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\xampp\htdocs\TP\App\Runtime\Cache\Home\c0dc342f211e104eba0a4afbe4b0b366.php 第 690 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018115s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018169s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000568s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000598s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001567s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.115943s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.118369s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.001204s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000009s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.119173s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php:95) D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php:95) D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php:95) D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003649s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003764s ]
+
+[ 2018-04-01T14:31:31+08:00 ] ::1 /TP/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000555s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001223s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001295s ]
+SQL: SHOW COLUMNS FROM `xlr_menus` [ RunTime:0.0062s ]
+SQL: SELECT * FROM `xlr_menus` WHERE `display` = 1 AND `is_home` = 1 ORDER BY `order` asc  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000395s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000498s ]
+NOTIC: [8] Use of undefined constant en - assumed 'en' D:\xampp\htdocs\TP\App\Runtime\Cache\Home\c0dc342f211e104eba0a4afbe4b0b366.php 第 690 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\xampp\htdocs\TP\App\Runtime\Cache\Home\c0dc342f211e104eba0a4afbe4b0b366.php 第 690 行.
+NOTIC: [8] Use of undefined constant en - assumed 'en' D:\xampp\htdocs\TP\App\Runtime\Cache\Home\c0dc342f211e104eba0a4afbe4b0b366.php 第 690 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\xampp\htdocs\TP\App\Runtime\Cache\Home\c0dc342f211e104eba0a4afbe4b0b366.php 第 690 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015977s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016020s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000550s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000579s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001348s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.089986s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.092110s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.001196s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000048s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.092974s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php:95) D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php:95) D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php:95) D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003231s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003473s ]
+
+[ 2018-04-01T14:31:33+08:00 ] ::1 /TP/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000153s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000855s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001165s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001268s ]
+SQL: SHOW COLUMNS FROM `xlr_menus` [ RunTime:0.0076s ]
+SQL: SELECT * FROM `xlr_menus` WHERE `display` = 1 AND `is_home` = 1 ORDER BY `order` asc  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000340s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000456s ]
+NOTIC: [8] Use of undefined constant en - assumed 'en' D:\xampp\htdocs\TP\App\Runtime\Cache\Home\c0dc342f211e104eba0a4afbe4b0b366.php 第 690 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\xampp\htdocs\TP\App\Runtime\Cache\Home\c0dc342f211e104eba0a4afbe4b0b366.php 第 690 行.
+NOTIC: [8] Use of undefined constant en - assumed 'en' D:\xampp\htdocs\TP\App\Runtime\Cache\Home\c0dc342f211e104eba0a4afbe4b0b366.php 第 690 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\xampp\htdocs\TP\App\Runtime\Cache\Home\c0dc342f211e104eba0a4afbe4b0b366.php 第 690 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016075s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016115s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000381s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000409s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001357s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.092510s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.093634s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.000748s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000009s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.094172s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php:95) D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php:95) D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php:95) D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005196s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005317s ]
+
+[ 2018-04-01T14:31:33+08:00 ] ::1 /TP/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000354s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000444s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000485s ]
+SQL: SHOW COLUMNS FROM `xlr_menus` [ RunTime:0.0048s ]
+SQL: SELECT * FROM `xlr_menus` WHERE `display` = 1 AND `is_home` = 1 ORDER BY `order` asc  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000196s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000244s ]
+NOTIC: [8] Use of undefined constant en - assumed 'en' D:\xampp\htdocs\TP\App\Runtime\Cache\Home\c0dc342f211e104eba0a4afbe4b0b366.php 第 690 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\xampp\htdocs\TP\App\Runtime\Cache\Home\c0dc342f211e104eba0a4afbe4b0b366.php 第 690 行.
+NOTIC: [8] Use of undefined constant en - assumed 'en' D:\xampp\htdocs\TP\App\Runtime\Cache\Home\c0dc342f211e104eba0a4afbe4b0b366.php 第 690 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\xampp\htdocs\TP\App\Runtime\Cache\Home\c0dc342f211e104eba0a4afbe4b0b366.php 第 690 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015723s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015764s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000307s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000336s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001342s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.085498s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.088450s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.000651s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000009s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.088982s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php:95) D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php:95) D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php:95) D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000896s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001002s ]
+
+[ 2018-04-01T14:31:45+08:00 ] ::1 /TP/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001017s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000761s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000851s ]
+SQL: SHOW COLUMNS FROM `xlr_menus` [ RunTime:0.0056s ]
+SQL: SELECT * FROM `xlr_menus` WHERE `display` = 1 AND `is_home` = 1 ORDER BY `order` asc  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000321s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000394s ]
+NOTIC: [8] Use of undefined constant en - assumed 'en' D:\xampp\htdocs\TP\App\Runtime\Cache\Home\c0dc342f211e104eba0a4afbe4b0b366.php 第 690 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\xampp\htdocs\TP\App\Runtime\Cache\Home\c0dc342f211e104eba0a4afbe4b0b366.php 第 690 行.
+NOTIC: [8] Use of undefined constant en - assumed 'en' D:\xampp\htdocs\TP\App\Runtime\Cache\Home\c0dc342f211e104eba0a4afbe4b0b366.php 第 690 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\xampp\htdocs\TP\App\Runtime\Cache\Home\c0dc342f211e104eba0a4afbe4b0b366.php 第 690 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016100s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016153s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000360s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000394s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.008964s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.094886s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.108124s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.000764s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000019s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.108759s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php:95) D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php:95) D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php:95) D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004623s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005210s ]
+
+[ 2018-04-01T14:32:15+08:00 ] ::1 /TP/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000572s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000779s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000830s ]
+SQL: SHOW COLUMNS FROM `xlr_menus` [ RunTime:0.0061s ]
+SQL: SELECT * FROM `xlr_menus` WHERE `display` = 1 AND `is_home` = 1 ORDER BY `order` asc  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000192s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000237s ]
+NOTIC: [8] Use of undefined constant en - assumed 'en' D:\xampp\htdocs\TP\App\Runtime\Cache\Home\c0dc342f211e104eba0a4afbe4b0b366.php 第 690 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\xampp\htdocs\TP\App\Runtime\Cache\Home\c0dc342f211e104eba0a4afbe4b0b366.php 第 690 行.
+NOTIC: [8] Use of undefined constant en - assumed 'en' D:\xampp\htdocs\TP\App\Runtime\Cache\Home\c0dc342f211e104eba0a4afbe4b0b366.php 第 690 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\xampp\htdocs\TP\App\Runtime\Cache\Home\c0dc342f211e104eba0a4afbe4b0b366.php 第 690 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016448s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016506s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001069s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001126s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.002255s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.127657s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.133263s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.001797s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000021s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.134265s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php:95) D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php:95) D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php:95) D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001840s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002032s ]
+
+[ 2018-04-01T14:34:18+08:00 ] ::1 /TP/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000633s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000843s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000908s ]
+SQL: SHOW COLUMNS FROM `xlr_menus` [ RunTime:0.0054s ]
+SQL: SELECT * FROM `xlr_menus` WHERE `display` = 1 AND `is_home` = 1 ORDER BY `order` asc  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000266s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000316s ]
+NOTIC: [8] Use of undefined constant en - assumed 'en' D:\xampp\htdocs\TP\App\Runtime\Cache\Home\c0dc342f211e104eba0a4afbe4b0b366.php 第 690 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\xampp\htdocs\TP\App\Runtime\Cache\Home\c0dc342f211e104eba0a4afbe4b0b366.php 第 690 行.
+NOTIC: [8] Use of undefined constant en - assumed 'en' D:\xampp\htdocs\TP\App\Runtime\Cache\Home\c0dc342f211e104eba0a4afbe4b0b366.php 第 690 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\xampp\htdocs\TP\App\Runtime\Cache\Home\c0dc342f211e104eba0a4afbe4b0b366.php 第 690 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017905s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017948s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000529s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000560s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.002307s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.116911s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.125167s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.001208s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000017s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.126193s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php:95) D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php:95) D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php:95) D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001771s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002002s ]
+
+[ 2018-04-01T14:34:33+08:00 ] ::1 /TP/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000538s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000758s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000802s ]
+SQL: SHOW COLUMNS FROM `xlr_menus` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `xlr_menus` WHERE `display` = 1 AND `is_home` = 1 ORDER BY `order` asc  [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000191s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000233s ]
+NOTIC: [8] Use of undefined constant en - assumed 'en' D:\xampp\htdocs\TP\App\Runtime\Cache\Home\c0dc342f211e104eba0a4afbe4b0b366.php 第 690 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\xampp\htdocs\TP\App\Runtime\Cache\Home\c0dc342f211e104eba0a4afbe4b0b366.php 第 690 行.
+NOTIC: [8] Use of undefined constant en - assumed 'en' D:\xampp\htdocs\TP\App\Runtime\Cache\Home\c0dc342f211e104eba0a4afbe4b0b366.php 第 690 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\xampp\htdocs\TP\App\Runtime\Cache\Home\c0dc342f211e104eba0a4afbe4b0b366.php 第 690 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015284s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015440s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001476s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001561s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.004960s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.183743s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.189386s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.002967s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000010s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.191039s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php:95) D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php:95) D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php:95) D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001298s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001374s ]
+
+[ 2018-04-01T14:34:41+08:00 ] ::1 /TP/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000945s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000682s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000752s ]
+SQL: SHOW COLUMNS FROM `xlr_menus` [ RunTime:0.0199s ]
+SQL: SELECT * FROM `xlr_menus` WHERE `display` = 1 AND `is_home` = 1 ORDER BY `order` asc  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000196s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000242s ]
+NOTIC: [8] Use of undefined constant en - assumed 'en' D:\xampp\htdocs\TP\App\Runtime\Cache\Home\c0dc342f211e104eba0a4afbe4b0b366.php 第 690 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\xampp\htdocs\TP\App\Runtime\Cache\Home\c0dc342f211e104eba0a4afbe4b0b366.php 第 690 行.
+NOTIC: [8] Use of undefined constant en - assumed 'en' D:\xampp\htdocs\TP\App\Runtime\Cache\Home\c0dc342f211e104eba0a4afbe4b0b366.php 第 690 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\xampp\htdocs\TP\App\Runtime\Cache\Home\c0dc342f211e104eba0a4afbe4b0b366.php 第 690 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015191s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015244s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000338s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000368s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001608s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.093903s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.102317s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.000684s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000011s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.102845s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php:95) D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php:95) D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php:95) D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000884s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000998s ]
+
+[ 2018-04-01T14:37:29+08:00 ] ::1 /TP/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000580s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000966s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001030s ]
+SQL: SHOW COLUMNS FROM `xlr_menus` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `xlr_menus` WHERE `display` = 1 AND `is_home` = 1 ORDER BY `order` asc  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000212s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000262s ]
+NOTIC: [8] Use of undefined constant en - assumed 'en' D:\xampp\htdocs\TP\App\Runtime\Cache\Home\c0dc342f211e104eba0a4afbe4b0b366.php 第 690 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\xampp\htdocs\TP\App\Runtime\Cache\Home\c0dc342f211e104eba0a4afbe4b0b366.php 第 690 行.
+NOTIC: [8] Use of undefined constant en - assumed 'en' D:\xampp\htdocs\TP\App\Runtime\Cache\Home\c0dc342f211e104eba0a4afbe4b0b366.php 第 690 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\xampp\htdocs\TP\App\Runtime\Cache\Home\c0dc342f211e104eba0a4afbe4b0b366.php 第 690 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015747s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015787s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000572s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000603s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001500s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.094915s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.100340s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.001245s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000010s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.101214s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php:95) D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php:95) D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php:95) D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001722s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001801s ]
+
+[ 2018-04-01T14:37:32+08:00 ] ::1 /TP/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000522s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000577s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000635s ]
+SQL: SHOW COLUMNS FROM `xlr_menus` [ RunTime:0.0970s ]
+SQL: SELECT * FROM `xlr_menus` WHERE `display` = 1 AND `is_home` = 1 ORDER BY `order` asc  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000200s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000251s ]
+NOTIC: [8] Use of undefined constant en - assumed 'en' D:\xampp\htdocs\TP\App\Runtime\Cache\Home\c0dc342f211e104eba0a4afbe4b0b366.php 第 690 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\xampp\htdocs\TP\App\Runtime\Cache\Home\c0dc342f211e104eba0a4afbe4b0b366.php 第 690 行.
+NOTIC: [8] Use of undefined constant en - assumed 'en' D:\xampp\htdocs\TP\App\Runtime\Cache\Home\c0dc342f211e104eba0a4afbe4b0b366.php 第 690 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\xampp\htdocs\TP\App\Runtime\Cache\Home\c0dc342f211e104eba0a4afbe4b0b366.php 第 690 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014568s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014607s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000314s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000357s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.003301s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.105104s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.110794s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.000694s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000014s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.111361s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php:95) D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php:95) D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php:95) D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000887s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000963s ]
+
+[ 2018-04-01T14:37:45+08:00 ] ::1 /TP/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000419s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000429s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000472s ]
+SQL: SHOW COLUMNS FROM `xlr_menus` [ RunTime:0.0041s ]
+SQL: SELECT * FROM `xlr_menus` WHERE `display` = 1 AND `is_home` = 1 ORDER BY `order` asc  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000222s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000269s ]
+NOTIC: [8] Use of undefined constant en - assumed 'en' D:\xampp\htdocs\TP\App\Runtime\Cache\Home\c0dc342f211e104eba0a4afbe4b0b366.php 第 690 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\xampp\htdocs\TP\App\Runtime\Cache\Home\c0dc342f211e104eba0a4afbe4b0b366.php 第 690 行.
+NOTIC: [8] Use of undefined constant en - assumed 'en' D:\xampp\htdocs\TP\App\Runtime\Cache\Home\c0dc342f211e104eba0a4afbe4b0b366.php 第 690 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\xampp\htdocs\TP\App\Runtime\Cache\Home\c0dc342f211e104eba0a4afbe4b0b366.php 第 690 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014995s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015043s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000345s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000374s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001375s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.104363s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.107231s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.000672s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000009s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.107729s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php:95) D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php:95) D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php:95) D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000784s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000860s ]
+
+[ 2018-04-01T14:48:07+08:00 ] ::1 /TP/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000525s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001569s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001649s ]
+SQL: SHOW COLUMNS FROM `xlr_menus` [ RunTime:0.0061s ]
+SQL: SELECT * FROM `xlr_menus` WHERE `display` = 1 AND `is_home` = 1 ORDER BY `order` asc  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000198s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000245s ]
+NOTIC: [8] Use of undefined constant en - assumed 'en' D:\xampp\htdocs\TP\App\Runtime\Cache\Home\c0dc342f211e104eba0a4afbe4b0b366.php 第 690 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\xampp\htdocs\TP\App\Runtime\Cache\Home\c0dc342f211e104eba0a4afbe4b0b366.php 第 690 行.
+NOTIC: [8] Use of undefined constant en - assumed 'en' D:\xampp\htdocs\TP\App\Runtime\Cache\Home\c0dc342f211e104eba0a4afbe4b0b366.php 第 690 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\xampp\htdocs\TP\App\Runtime\Cache\Home\c0dc342f211e104eba0a4afbe4b0b366.php 第 690 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017152s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017198s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000747s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000790s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.008195s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.120216s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.133804s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.001522s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000011s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.134752s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php:95) D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php:95) D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php:95) D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002012s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002206s ]
+
+[ 2018-04-01T14:48:23+08:00 ] ::1 /TP/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000939s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000893s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000948s ]
+SQL: SHOW COLUMNS FROM `xlr_menus` [ RunTime:0.0074s ]
+SQL: SELECT * FROM `xlr_menus` WHERE `display` = 1 AND `is_home` = 1 ORDER BY `order` asc  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000352s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000447s ]
+NOTIC: [8] Use of undefined constant en - assumed 'en' D:\xampp\htdocs\TP\App\Runtime\Cache\Home\c0dc342f211e104eba0a4afbe4b0b366.php 第 690 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\xampp\htdocs\TP\App\Runtime\Cache\Home\c0dc342f211e104eba0a4afbe4b0b366.php 第 690 行.
+NOTIC: [8] Use of undefined constant en - assumed 'en' D:\xampp\htdocs\TP\App\Runtime\Cache\Home\c0dc342f211e104eba0a4afbe4b0b366.php 第 690 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\xampp\htdocs\TP\App\Runtime\Cache\Home\c0dc342f211e104eba0a4afbe4b0b366.php 第 690 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019261s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019315s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000643s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000686s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.002189s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.103553s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.107510s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.001495s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000015s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.108562s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php:95) D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php:95) D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php:95) D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005181s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005388s ]
+
+[ 2018-04-01T14:48:40+08:00 ] ::1 /TP/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000618s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000463s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000508s ]
+SQL: SHOW COLUMNS FROM `xlr_menus` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `xlr_menus` WHERE `display` = 1 AND `is_home` = 1 ORDER BY `order` asc  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000233s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000279s ]
+NOTIC: [8] Use of undefined constant en - assumed 'en' D:\xampp\htdocs\TP\App\Runtime\Cache\Home\c0dc342f211e104eba0a4afbe4b0b366.php 第 690 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\xampp\htdocs\TP\App\Runtime\Cache\Home\c0dc342f211e104eba0a4afbe4b0b366.php 第 690 行.
+NOTIC: [8] Use of undefined constant en - assumed 'en' D:\xampp\htdocs\TP\App\Runtime\Cache\Home\c0dc342f211e104eba0a4afbe4b0b366.php 第 690 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\xampp\htdocs\TP\App\Runtime\Cache\Home\c0dc342f211e104eba0a4afbe4b0b366.php 第 690 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014440s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014526s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000547s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000584s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.002554s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.187025s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.191578s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.000934s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000018s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.192258s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php:95) D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php:95) D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php:95) D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001415s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001490s ]
+
+[ 2018-04-01T14:55:48+08:00 ] ::1 /TP/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000746s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001016s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001112s ]
+SQL: SHOW COLUMNS FROM `xlr_menus` [ RunTime:0.0977s ]
+SQL: SELECT * FROM `xlr_menus` WHERE `display` = 1 AND `is_home` = 1 ORDER BY `order` asc  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000199s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000254s ]
+NOTIC: [8] Use of undefined constant en - assumed 'en' D:\xampp\htdocs\TP\App\Runtime\Cache\Home\c0dc342f211e104eba0a4afbe4b0b366.php 第 690 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\xampp\htdocs\TP\App\Runtime\Cache\Home\c0dc342f211e104eba0a4afbe4b0b366.php 第 690 行.
+NOTIC: [8] Use of undefined constant en - assumed 'en' D:\xampp\htdocs\TP\App\Runtime\Cache\Home\c0dc342f211e104eba0a4afbe4b0b366.php 第 690 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\xampp\htdocs\TP\App\Runtime\Cache\Home\c0dc342f211e104eba0a4afbe4b0b366.php 第 690 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016383s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016439s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000519s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000549s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.006601s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.136219s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.145972s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.001290s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000013s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.146935s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php:95) D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php:95) D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php:95) D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001318s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001400s ]
+
+[ 2018-04-01T14:56:12+08:00 ] ::1 /TP/index.php/Home/Index/%E6%B3%A8%E5%86%8C.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000591s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001078s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001143s ]
+SQL: SHOW COLUMNS FROM `xlr_menus` [ RunTime:0.0066s ]
+SQL: SELECT * FROM `xlr_menus` WHERE `display` = 1 AND `is_home` = 1 ORDER BY `order` asc  [ RunTime:0.0003s ]
+ERR: 非法操作:注册
+
+[ 2018-04-01T14:56:31+08:00 ] ::1 /TP/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000464s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001288s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001381s ]
+SQL: SHOW COLUMNS FROM `xlr_menus` [ RunTime:0.0043s ]
+SQL: SELECT * FROM `xlr_menus` WHERE `display` = 1 AND `is_home` = 1 ORDER BY `order` asc  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000217s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000268s ]
+NOTIC: [8] Use of undefined constant en - assumed 'en' D:\xampp\htdocs\TP\App\Runtime\Cache\Home\c0dc342f211e104eba0a4afbe4b0b366.php 第 690 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\xampp\htdocs\TP\App\Runtime\Cache\Home\c0dc342f211e104eba0a4afbe4b0b366.php 第 690 行.
+NOTIC: [8] Use of undefined constant en - assumed 'en' D:\xampp\htdocs\TP\App\Runtime\Cache\Home\c0dc342f211e104eba0a4afbe4b0b366.php 第 690 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\xampp\htdocs\TP\App\Runtime\Cache\Home\c0dc342f211e104eba0a4afbe4b0b366.php 第 690 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015361s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015410s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000559s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000590s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001566s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.107163s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.112415s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.001177s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000015s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.113240s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php:95) D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php:95) D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php:95) D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002914s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003093s ]
+
+[ 2018-04-01T14:56:37+08:00 ] ::1 /TP/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000518s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000432s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000476s ]
+SQL: SHOW COLUMNS FROM `xlr_menus` [ RunTime:0.0074s ]
+SQL: SELECT * FROM `xlr_menus` WHERE `display` = 1 AND `is_home` = 1 ORDER BY `order` asc  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000367s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000443s ]
+NOTIC: [8] Use of undefined constant en - assumed 'en' D:\xampp\htdocs\TP\App\Runtime\Cache\Home\c0dc342f211e104eba0a4afbe4b0b366.php 第 690 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\xampp\htdocs\TP\App\Runtime\Cache\Home\c0dc342f211e104eba0a4afbe4b0b366.php 第 690 行.
+NOTIC: [8] Use of undefined constant en - assumed 'en' D:\xampp\htdocs\TP\App\Runtime\Cache\Home\c0dc342f211e104eba0a4afbe4b0b366.php 第 690 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\xampp\htdocs\TP\App\Runtime\Cache\Home\c0dc342f211e104eba0a4afbe4b0b366.php 第 690 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027674s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027752s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001685s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001787s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.004128s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.102615s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.106153s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.002770s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000010s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.107324s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php:95) D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php:95) D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php:95) D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001667s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001958s ]
+
+[ 2018-04-01T14:56:41+08:00 ] ::1 /TP/index.php/Home/order/detail.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000368s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000423s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000463s ]
+SQL: SHOW COLUMNS FROM `xlr_menus` [ RunTime:0.0041s ]
+SQL: SELECT * FROM `xlr_menus` WHERE `display` = 1 AND `is_home` = 1 ORDER BY `order` asc  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xlr_order_detail` [ RunTime:0.0046s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM `xlr_order_detail` WHERE ( order_id= ) 
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM `xlr_order_detail` WHERE ( order_id= ) 
+
+[ 2018-04-01T14:56:43+08:00 ] ::1 /TP/index.php/Home/Goods/car.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000400s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000423s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000463s ]
+SQL: SHOW COLUMNS FROM `xlr_menus` [ RunTime:0.0049s ]
+SQL: SELECT * FROM `xlr_menus` WHERE `display` = 1 AND `is_home` = 1 ORDER BY `order` asc  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xlr_car` [ RunTime:0.0042s ]
+SQL: SELECT * FROM `xlr_car` WHERE ( `user_id`=1 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xlr_goods` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `xlr_goods` WHERE ( 1=1 AND id='2' ) LIMIT 1   [ RunTime:0.0589s ]
+SQL: SELECT * FROM `xlr_goods` WHERE ( 1=1 AND id='3' ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000189s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000236s ]
+NOTIC: [8] Use of undefined constant en - assumed 'en' D:\xampp\htdocs\TP\App\Runtime\Cache\Home\c0dc342f211e104eba0a4afbe4b0b366.php 第 690 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\xampp\htdocs\TP\App\Runtime\Cache\Home\c0dc342f211e104eba0a4afbe4b0b366.php 第 690 行.
+NOTIC: [8] Use of undefined constant en - assumed 'en' D:\xampp\htdocs\TP\App\Runtime\Cache\Home\c0dc342f211e104eba0a4afbe4b0b366.php 第 690 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\xampp\htdocs\TP\App\Runtime\Cache\Home\c0dc342f211e104eba0a4afbe4b0b366.php 第 690 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014183s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014229s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000447s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000484s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000075s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.007602s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\xampp\htdocs\TP\App\Runtime\Cache\Home\d1fecdd7aca6fe942542b449f239cd34.php 第 29 行.
+NOTIC: [8] Use of undefined constant goods - assumed 'goods' D:\xampp\htdocs\TP\App\Runtime\Cache\Home\d1fecdd7aca6fe942542b449f239cd34.php 第 35 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\xampp\htdocs\TP\App\Runtime\Cache\Home\d1fecdd7aca6fe942542b449f239cd34.php 第 35 行.
+NOTIC: [8] Use of undefined constant spec_desc - assumed 'spec_desc' D:\xampp\htdocs\TP\App\Runtime\Cache\Home\d1fecdd7aca6fe942542b449f239cd34.php 第 39 行.
+NOTIC: [8] Use of undefined constant number - assumed 'number' D:\xampp\htdocs\TP\App\Runtime\Cache\Home\d1fecdd7aca6fe942542b449f239cd34.php 第 43 行.
+NOTIC: [8] Use of undefined constant goods - assumed 'goods' D:\xampp\htdocs\TP\App\Runtime\Cache\Home\d1fecdd7aca6fe942542b449f239cd34.php 第 46 行.
+NOTIC: [8] Use of undefined constant shop_price - assumed 'shop_price' D:\xampp\htdocs\TP\App\Runtime\Cache\Home\d1fecdd7aca6fe942542b449f239cd34.php 第 46 行.
+NOTIC: [8] Use of undefined constant goods - assumed 'goods' D:\xampp\htdocs\TP\App\Runtime\Cache\Home\d1fecdd7aca6fe942542b449f239cd34.php 第 47 行.
+NOTIC: [8] Use of undefined constant shop_price - assumed 'shop_price' D:\xampp\htdocs\TP\App\Runtime\Cache\Home\d1fecdd7aca6fe942542b449f239cd34.php 第 47 行.
+NOTIC: [8] Use of undefined constant number - assumed 'number' D:\xampp\htdocs\TP\App\Runtime\Cache\Home\d1fecdd7aca6fe942542b449f239cd34.php 第 47 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' D:\xampp\htdocs\TP\App\Runtime\Cache\Home\d1fecdd7aca6fe942542b449f239cd34.php 第 29 行.
+NOTIC: [8] Use of undefined constant goods - assumed 'goods' D:\xampp\htdocs\TP\App\Runtime\Cache\Home\d1fecdd7aca6fe942542b449f239cd34.php 第 35 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\xampp\htdocs\TP\App\Runtime\Cache\Home\d1fecdd7aca6fe942542b449f239cd34.php 第 35 行.
+NOTIC: [8] Use of undefined constant spec_desc - assumed 'spec_desc' D:\xampp\htdocs\TP\App\Runtime\Cache\Home\d1fecdd7aca6fe942542b449f239cd34.php 第 39 行.
+NOTIC: [8] Use of undefined constant number - assumed 'number' D:\xampp\htdocs\TP\App\Runtime\Cache\Home\d1fecdd7aca6fe942542b449f239cd34.php 第 43 行.
+NOTIC: [8] Use of undefined constant goods - assumed 'goods' D:\xampp\htdocs\TP\App\Runtime\Cache\Home\d1fecdd7aca6fe942542b449f239cd34.php 第 46 行.
+NOTIC: [8] Use of undefined constant shop_price - assumed 'shop_price' D:\xampp\htdocs\TP\App\Runtime\Cache\Home\d1fecdd7aca6fe942542b449f239cd34.php 第 46 行.
+NOTIC: [8] Use of undefined constant goods - assumed 'goods' D:\xampp\htdocs\TP\App\Runtime\Cache\Home\d1fecdd7aca6fe942542b449f239cd34.php 第 47 行.
+NOTIC: [8] Use of undefined constant shop_price - assumed 'shop_price' D:\xampp\htdocs\TP\App\Runtime\Cache\Home\d1fecdd7aca6fe942542b449f239cd34.php 第 47 行.
+NOTIC: [8] Use of undefined constant number - assumed 'number' D:\xampp\htdocs\TP\App\Runtime\Cache\Home\d1fecdd7aca6fe942542b449f239cd34.php 第 47 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031959s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.001352s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000009s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.032864s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php:95) D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php:95) D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php:95) D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001259s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001315s ]
+
+[ 2018-04-01T15:14:38+08:00 ] ::1 /TP/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.031547s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.011905s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.012048s ]
+SQL: SHOW COLUMNS FROM `xlr_menus` [ RunTime:0.0340s ]
+SQL: SELECT * FROM `xlr_menus` WHERE `display` = 1 AND `is_home` = 1 ORDER BY `order` asc  [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.002520s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002689s ]
+NOTIC: [8] Use of undefined constant en - assumed 'en' D:\xampp\htdocs\TP\App\Runtime\Cache\Home\c0dc342f211e104eba0a4afbe4b0b366.php 第 690 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\xampp\htdocs\TP\App\Runtime\Cache\Home\c0dc342f211e104eba0a4afbe4b0b366.php 第 690 行.
+NOTIC: [8] Use of undefined constant en - assumed 'en' D:\xampp\htdocs\TP\App\Runtime\Cache\Home\c0dc342f211e104eba0a4afbe4b0b366.php 第 690 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\xampp\htdocs\TP\App\Runtime\Cache\Home\c0dc342f211e104eba0a4afbe4b0b366.php 第 690 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.194564s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.194668s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.032690s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.032860s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.002146s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.183519s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.122364s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.060403s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000012s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.150140s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php:95) D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php:95) D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php:95) D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.028903s ]
+INFO: [ app_end ] --END-- [ RunTime:0.028972s ]
+
+[ 2018-04-01T15:49:11+08:00 ] ::1 /TP/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000501s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000748s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000791s ]
+SQL: SHOW COLUMNS FROM `xlr_menus` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `xlr_menus` WHERE `display` = 1 AND `is_home` = 1 ORDER BY `order` asc  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000261s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000327s ]
+NOTIC: [8] Use of undefined constant en - assumed 'en' D:\xampp\htdocs\TP\App\Runtime\Cache\Home\c0dc342f211e104eba0a4afbe4b0b366.php 第 690 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\xampp\htdocs\TP\App\Runtime\Cache\Home\c0dc342f211e104eba0a4afbe4b0b366.php 第 690 行.
+NOTIC: [8] Use of undefined constant en - assumed 'en' D:\xampp\htdocs\TP\App\Runtime\Cache\Home\c0dc342f211e104eba0a4afbe4b0b366.php 第 690 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\xampp\htdocs\TP\App\Runtime\Cache\Home\c0dc342f211e104eba0a4afbe4b0b366.php 第 690 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016690s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016733s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000564s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000595s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001469s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.091785s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.103342s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.001173s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000018s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.104243s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php:95) D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php:95) D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php:95) D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005423s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005651s ]
+
+[ 2018-04-01T15:55:02+08:00 ] ::1 /TP/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000518s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000771s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000820s ]
+SQL: SHOW COLUMNS FROM `xlr_menus` [ RunTime:0.0102s ]
+SQL: SELECT * FROM `xlr_menus` WHERE `display` = 1 AND `is_home` = 1 ORDER BY `order` asc  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000197s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000237s ]
+NOTIC: [8] Use of undefined constant en - assumed 'en' D:\xampp\htdocs\TP\App\Runtime\Cache\Home\c0dc342f211e104eba0a4afbe4b0b366.php 第 690 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\xampp\htdocs\TP\App\Runtime\Cache\Home\c0dc342f211e104eba0a4afbe4b0b366.php 第 690 行.
+NOTIC: [8] Use of undefined constant en - assumed 'en' D:\xampp\htdocs\TP\App\Runtime\Cache\Home\c0dc342f211e104eba0a4afbe4b0b366.php 第 690 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\xampp\htdocs\TP\App\Runtime\Cache\Home\c0dc342f211e104eba0a4afbe4b0b366.php 第 690 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016501s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016568s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000756s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000797s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001358s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.087124s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.088860s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.001421s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000010s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.089664s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php:95) D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php:95) D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php:95) D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001526s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001677s ]
+
+[ 2018-04-01T15:55:04+08:00 ] ::1 /TP/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000447s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000829s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000875s ]
+SQL: SHOW COLUMNS FROM `xlr_menus` [ RunTime:0.0178s ]
+SQL: SELECT * FROM `xlr_menus` WHERE `display` = 1 AND `is_home` = 1 ORDER BY `order` asc  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000196s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000245s ]
+NOTIC: [8] Use of undefined constant en - assumed 'en' D:\xampp\htdocs\TP\App\Runtime\Cache\Home\c0dc342f211e104eba0a4afbe4b0b366.php 第 690 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\xampp\htdocs\TP\App\Runtime\Cache\Home\c0dc342f211e104eba0a4afbe4b0b366.php 第 690 行.
+NOTIC: [8] Use of undefined constant en - assumed 'en' D:\xampp\htdocs\TP\App\Runtime\Cache\Home\c0dc342f211e104eba0a4afbe4b0b366.php 第 690 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\xampp\htdocs\TP\App\Runtime\Cache\Home\c0dc342f211e104eba0a4afbe4b0b366.php 第 690 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016592s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016636s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000572s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000616s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001657s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.083490s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.086586s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.001272s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000015s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.088445s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php:95) D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php:95) D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php:95) D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001306s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001393s ]
+
+[ 2018-04-01T15:55:09+08:00 ] ::1 /TP/index.php/Home/Index/%E6%B5%8F%E8%A7%88%E8%AE%B0%E5%BD%95.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000525s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000634s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000690s ]
+SQL: SHOW COLUMNS FROM `xlr_menus` [ RunTime:0.0115s ]
+SQL: SELECT * FROM `xlr_menus` WHERE `display` = 1 AND `is_home` = 1 ORDER BY `order` asc  [ RunTime:0.0004s ]
+ERR: 非法操作:浏览记录
+
+[ 2018-04-01T17:42:50+08:00 ] ::1 /TP/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000449s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000756s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000799s ]
+SQL: SHOW COLUMNS FROM `xlr_menus` [ RunTime:0.1112s ]
+SQL: SELECT * FROM `xlr_menus` WHERE `display` = 1 AND `is_home` = 1 ORDER BY `order` asc  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000230s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000284s ]
+NOTIC: [8] Use of undefined constant en - assumed 'en' D:\xampp\htdocs\TP\App\Runtime\Cache\Home\c0dc342f211e104eba0a4afbe4b0b366.php 第 690 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\xampp\htdocs\TP\App\Runtime\Cache\Home\c0dc342f211e104eba0a4afbe4b0b366.php 第 690 行.
+NOTIC: [8] Use of undefined constant en - assumed 'en' D:\xampp\htdocs\TP\App\Runtime\Cache\Home\c0dc342f211e104eba0a4afbe4b0b366.php 第 690 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\xampp\htdocs\TP\App\Runtime\Cache\Home\c0dc342f211e104eba0a4afbe4b0b366.php 第 690 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025205s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025268s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000679s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000714s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001366s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.099483s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.100738s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.001463s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000041s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.101876s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php:95) D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php:95) D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php:95) D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.019356s ]
+INFO: [ app_end ] --END-- [ RunTime:0.019745s ]
+
+[ 2018-04-01T17:43:47+08:00 ] ::1 /TP/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000216s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001664s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000750s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000818s ]
+SQL: SHOW COLUMNS FROM `xlr_menus` [ RunTime:0.0146s ]
+SQL: SELECT * FROM `xlr_menus` WHERE `display` = 1 AND `is_home` = 1 ORDER BY `order` asc  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000212s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000266s ]
+NOTIC: [8] Use of undefined constant en - assumed 'en' D:\xampp\htdocs\TP\App\Runtime\Cache\Home\c0dc342f211e104eba0a4afbe4b0b366.php 第 690 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\xampp\htdocs\TP\App\Runtime\Cache\Home\c0dc342f211e104eba0a4afbe4b0b366.php 第 690 行.
+NOTIC: [8] Use of undefined constant en - assumed 'en' D:\xampp\htdocs\TP\App\Runtime\Cache\Home\c0dc342f211e104eba0a4afbe4b0b366.php 第 690 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\xampp\htdocs\TP\App\Runtime\Cache\Home\c0dc342f211e104eba0a4afbe4b0b366.php 第 690 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019223s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019283s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000885s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000939s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.008054s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.105918s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.140492s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.001845s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000033s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.141776s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php:95) D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php:95) D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php:95) D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001451s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001587s ]
+
+[ 2018-04-01T17:44:59+08:00 ] ::1 /TP/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001168s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003447s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004040s ]
+SQL: SHOW COLUMNS FROM `xlr_menus` [ RunTime:0.0182s ]
+SQL: SELECT * FROM `xlr_menus` WHERE `display` = 1 AND `is_home` = 1 ORDER BY `order` asc  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000300s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000375s ]
+NOTIC: [8] Use of undefined constant en - assumed 'en' D:\xampp\htdocs\TP\App\Runtime\Cache\Home\c0dc342f211e104eba0a4afbe4b0b366.php 第 690 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\xampp\htdocs\TP\App\Runtime\Cache\Home\c0dc342f211e104eba0a4afbe4b0b366.php 第 690 行.
+NOTIC: [8] Use of undefined constant en - assumed 'en' D:\xampp\htdocs\TP\App\Runtime\Cache\Home\c0dc342f211e104eba0a4afbe4b0b366.php 第 690 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\xampp\htdocs\TP\App\Runtime\Cache\Home\c0dc342f211e104eba0a4afbe4b0b366.php 第 690 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025780s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025833s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000877s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001103s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.002598s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.161706s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.169281s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.003252s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000010s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.171644s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php:95) D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php:95) D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php:95) D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.010526s ]
+INFO: [ app_end ] --END-- [ RunTime:0.010601s ]
+
+[ 2018-04-01T17:47:44+08:00 ] ::1 /TP/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000595s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000919s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000979s ]
+SQL: SHOW COLUMNS FROM `xlr_menus` [ RunTime:0.0133s ]
+SQL: SELECT * FROM `xlr_menus` WHERE `display` = 1 AND `is_home` = 1 ORDER BY `order` asc  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000194s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000235s ]
+NOTIC: [8] Use of undefined constant en - assumed 'en' D:\xampp\htdocs\TP\App\Runtime\Cache\Home\c0dc342f211e104eba0a4afbe4b0b366.php 第 690 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\xampp\htdocs\TP\App\Runtime\Cache\Home\c0dc342f211e104eba0a4afbe4b0b366.php 第 690 行.
+NOTIC: [8] Use of undefined constant en - assumed 'en' D:\xampp\htdocs\TP\App\Runtime\Cache\Home\c0dc342f211e104eba0a4afbe4b0b366.php 第 690 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\xampp\htdocs\TP\App\Runtime\Cache\Home\c0dc342f211e104eba0a4afbe4b0b366.php 第 690 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017199s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017269s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000783s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000835s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001670s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.110136s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.112218s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.001592s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000044s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.114931s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php:95) D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php:95) D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php:95) D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001238s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001312s ]
+
+[ 2018-04-01T17:48:03+08:00 ] ::1 /TP/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000489s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000750s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000794s ]
+SQL: SHOW COLUMNS FROM `xlr_menus` [ RunTime:0.0205s ]
+SQL: SELECT * FROM `xlr_menus` WHERE `display` = 1 AND `is_home` = 1 ORDER BY `order` asc  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000195s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000243s ]
+NOTIC: [8] Use of undefined constant en - assumed 'en' D:\xampp\htdocs\TP\App\Runtime\Cache\Home\c0dc342f211e104eba0a4afbe4b0b366.php 第 690 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\xampp\htdocs\TP\App\Runtime\Cache\Home\c0dc342f211e104eba0a4afbe4b0b366.php 第 690 行.
+NOTIC: [8] Use of undefined constant en - assumed 'en' D:\xampp\htdocs\TP\App\Runtime\Cache\Home\c0dc342f211e104eba0a4afbe4b0b366.php 第 690 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\xampp\htdocs\TP\App\Runtime\Cache\Home\c0dc342f211e104eba0a4afbe4b0b366.php 第 690 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020422s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020469s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000535s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000565s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001611s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.107350s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.115749s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.001155s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000016s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.116589s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php:95) D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php:95) D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php:95) D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001385s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001456s ]
+
+[ 2018-04-01T17:48:12+08:00 ] ::1 /TP/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001052s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000792s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000875s ]
+SQL: SHOW COLUMNS FROM `xlr_menus` [ RunTime:0.0189s ]
+SQL: SELECT * FROM `xlr_menus` WHERE `display` = 1 AND `is_home` = 1 ORDER BY `order` asc  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000327s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000431s ]
+NOTIC: [8] Use of undefined constant en - assumed 'en' D:\xampp\htdocs\TP\App\Runtime\Cache\Home\c0dc342f211e104eba0a4afbe4b0b366.php 第 690 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\xampp\htdocs\TP\App\Runtime\Cache\Home\c0dc342f211e104eba0a4afbe4b0b366.php 第 690 行.
+NOTIC: [8] Use of undefined constant en - assumed 'en' D:\xampp\htdocs\TP\App\Runtime\Cache\Home\c0dc342f211e104eba0a4afbe4b0b366.php 第 690 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\xampp\htdocs\TP\App\Runtime\Cache\Home\c0dc342f211e104eba0a4afbe4b0b366.php 第 690 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026860s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026933s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000641s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000706s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001431s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.139438s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.143195s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.001271s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000019s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.144127s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php:95) D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php:95) D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php:95) D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001439s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001527s ]
+
+[ 2018-04-01T17:48:25+08:00 ] ::1 /TP/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001078s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000789s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000837s ]
+SQL: SHOW COLUMNS FROM `xlr_menus` [ RunTime:0.0119s ]
+SQL: SELECT * FROM `xlr_menus` WHERE `display` = 1 AND `is_home` = 1 ORDER BY `order` asc  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000195s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000244s ]
+NOTIC: [8] Use of undefined constant en - assumed 'en' D:\xampp\htdocs\TP\App\Runtime\Cache\Home\c0dc342f211e104eba0a4afbe4b0b366.php 第 690 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\xampp\htdocs\TP\App\Runtime\Cache\Home\c0dc342f211e104eba0a4afbe4b0b366.php 第 690 行.
+NOTIC: [8] Use of undefined constant en - assumed 'en' D:\xampp\htdocs\TP\App\Runtime\Cache\Home\c0dc342f211e104eba0a4afbe4b0b366.php 第 690 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\xampp\htdocs\TP\App\Runtime\Cache\Home\c0dc342f211e104eba0a4afbe4b0b366.php 第 690 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019066s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019111s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000552s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000585s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.002149s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.162433s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.165519s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.001248s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000011s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.166383s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php:95) D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php:95) D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php:95) D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004938s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005020s ]
+
+[ 2018-04-01T17:50:09+08:00 ] ::1 /TP/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000411s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000454s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000498s ]
+SQL: SHOW COLUMNS FROM `xlr_menus` [ RunTime:0.0181s ]
+SQL: SELECT * FROM `xlr_menus` WHERE `display` = 1 AND `is_home` = 1 ORDER BY `order` asc  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000195s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000252s ]
+NOTIC: [8] Use of undefined constant en - assumed 'en' D:\xampp\htdocs\TP\App\Runtime\Cache\Home\c0dc342f211e104eba0a4afbe4b0b366.php 第 690 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\xampp\htdocs\TP\App\Runtime\Cache\Home\c0dc342f211e104eba0a4afbe4b0b366.php 第 690 行.
+NOTIC: [8] Use of undefined constant en - assumed 'en' D:\xampp\htdocs\TP\App\Runtime\Cache\Home\c0dc342f211e104eba0a4afbe4b0b366.php 第 690 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\xampp\htdocs\TP\App\Runtime\Cache\Home\c0dc342f211e104eba0a4afbe4b0b366.php 第 690 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014760s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014829s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000536s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000583s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001366s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.115961s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.121419s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.001159s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000016s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.122443s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php:95) D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php:95) D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php:95) D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005186s ]
+INFO: [ app_end ] --END-- [ RunTime:0.015491s ]
+
+[ 2018-04-01T17:52:01+08:00 ] ::1 /TP/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000478s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000777s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000820s ]
+SQL: SHOW COLUMNS FROM `xlr_menus` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `xlr_menus` WHERE `display` = 1 AND `is_home` = 1 ORDER BY `order` asc  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000256s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000326s ]
+NOTIC: [8] Use of undefined constant en - assumed 'en' D:\xampp\htdocs\TP\App\Runtime\Cache\Home\c0dc342f211e104eba0a4afbe4b0b366.php 第 690 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\xampp\htdocs\TP\App\Runtime\Cache\Home\c0dc342f211e104eba0a4afbe4b0b366.php 第 690 行.
+NOTIC: [8] Use of undefined constant en - assumed 'en' D:\xampp\htdocs\TP\App\Runtime\Cache\Home\c0dc342f211e104eba0a4afbe4b0b366.php 第 690 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\xampp\htdocs\TP\App\Runtime\Cache\Home\c0dc342f211e104eba0a4afbe4b0b366.php 第 690 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018603s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018665s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001223s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001276s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001932s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.100888s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.110182s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.002514s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000010s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.111686s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php:95) D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php:95) D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php:95) D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001303s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001371s ]
+
+[ 2018-04-01T17:52:02+08:00 ] ::1 /TP/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000412s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000479s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000523s ]
+SQL: SHOW COLUMNS FROM `xlr_menus` [ RunTime:0.0105s ]
+SQL: SELECT * FROM `xlr_menus` WHERE `display` = 1 AND `is_home` = 1 ORDER BY `order` asc  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000198s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000244s ]
+NOTIC: [8] Use of undefined constant en - assumed 'en' D:\xampp\htdocs\TP\App\Runtime\Cache\Home\c0dc342f211e104eba0a4afbe4b0b366.php 第 690 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\xampp\htdocs\TP\App\Runtime\Cache\Home\c0dc342f211e104eba0a4afbe4b0b366.php 第 690 行.
+NOTIC: [8] Use of undefined constant en - assumed 'en' D:\xampp\htdocs\TP\App\Runtime\Cache\Home\c0dc342f211e104eba0a4afbe4b0b366.php 第 690 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\xampp\htdocs\TP\App\Runtime\Cache\Home\c0dc342f211e104eba0a4afbe4b0b366.php 第 690 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015492s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015532s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000314s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000343s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001374s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.104876s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.110247s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.000685s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000022s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.110988s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php:95) D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php:95) D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php:95) D:\xampp\htdocs\TP\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.013835s ]
+INFO: [ app_end ] --END-- [ RunTime:0.014187s ]
+

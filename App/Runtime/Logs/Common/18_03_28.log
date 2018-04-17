@@ -1,0 +1,12 @@
+[ 2018-03-28T15:35:21+08:00 ] ::1 /TP/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000607s ]
+ERR: 无法加载模块:Index
+
+[ 2018-03-28T15:35:29+08:00 ] ::1 /TP/assets/images/video.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000799s ]
+ERR: 无法加载模块:Assets
+
